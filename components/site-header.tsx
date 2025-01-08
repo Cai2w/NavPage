@@ -42,6 +42,18 @@ export function SiteHeader() {
             >
               搜索网站...
             </Button>
+			  {/* 添加提交网站的按钮 */}
+			<Link href={siteConfig.links.submit} target="_blank" rel="noreferrer">
+				<div
+					className={buttonVariants({
+						size: "icon",
+						variant: "ghost"
+					})}
+				>
+					<Icons.plus className="h-5 w-5"/>
+					<span className="sr-only">提交网站</span>
+				</div>
+			</Link>
             <Link href={siteConfig.links.github} target="_blank" rel="noreferrer">
               <div
                 className={buttonVariants({
@@ -53,18 +65,6 @@ export function SiteHeader() {
                 <span className="sr-only">GitHub</span>
               </div>
             </Link>
-			{/* 添加提交网站的按钮 */}
-			<Link href="https://github.com/Cai2w/NavPage/issues/1" target="_blank" rel="noreferrer">
-				<div
-					className={buttonVariants({
-						size: "icon",
-						variant: "ghost"
-					})}
-				>
-					<Icons.plus className="h-5 w-5"/>
-					<span className="sr-only">提交网站</span>
-				  </div>
-			</Link>
 			  <ThemeToggle/>
 		  </div>
 		</nav>
