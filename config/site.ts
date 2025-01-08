@@ -6,7 +6,9 @@ export const siteConfig = {
   mainNav: [],
   links: {
     twitter: "https://twitter.com/liwenka1",
-    github: "https://github.com/liwenka1/next-web-nav"
+    github: "https://github.com/Cai2w/NavPage",
+	// 站点提交网址
+	submit: "https://github.com/Cai2w/NavPage/issues/1"
   }
 }
 
