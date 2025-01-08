@@ -15,7 +15,7 @@ export function SiteFooter() {
                   className="text-blueGray-500 py-1 text-center text-sm font-semibold md:text-left"
                   rel="noreferrer"
                 >
-					Copyright © {startYear} - {currentYear} by 王菜菜
+					Copyright © {startYear} - {currentYear} by Kiro
                 </a>
               </div>
             </div>
