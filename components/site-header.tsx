@@ -64,12 +64,24 @@ export function SiteHeader() {
                 <span className="sr-only">Twitter</span>
               </div>
             </Link>
-            <ThemeToggle />
-          </div>
-        </nav>
-      </div>
-      <CommandDialog open={open} onOpenChange={setOpen}>
-        <DialogTitle className="hidden" />
+			{/* 添加提交网站的按钮 */}
+			<Link href="https://github.com/Cai2w/NavPage/issues/1" target="_blank" rel="noreferrer">
+				<div
+					className={buttonVariants({
+						size: "icon",
+						variant: "ghost"
+					})}
+				>
+					<Icons.plus className="h-5 w-5"/>
+					<span className="sr-only">提交网站</span>
+				  </div>
+			</Link>
+			  <ThemeToggle/>
+		  </div>
+		</nav>
+	  </div>
+		<CommandDialog open={open} onOpenChange={setOpen}>
+			<DialogTitle className="hidden" />
         <CommandInput placeholder="Type a command or search..." />
         <CommandList>
           <CommandEmpty>No results found.</CommandEmpty>
