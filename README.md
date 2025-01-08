@@ -39,7 +39,7 @@
 
 ## 预览地址
 
-- [前端导航](https://nav.liwenkai.fun)
+- [编程导航](https://nav.cai2.wang)
 
 ## 功能介绍
 
