@@ -30,6 +30,59 @@ type NavData = {
 
 export const NavData: NavData[] = [
   {
+    title: "优秀站点",
+    items: [
+		{
+			icon: "https://favicon.im/pdai.tech",
+			title: "Java 全栈知识体系",
+			desc: "非常全面的知识库站点",
+			link: "https://pdai.tech"
+		},
+		{
+			icon: "https://favicon.im/learn.lianglianglee.com",
+			title: "技术文章摘抄",
+			desc: "计算机相关技术文章汇总",
+			link: "https://learn.lianglianglee.com/"
+		},
+		{
+			icon: "https://favicon.im/fhfirehuo.github.io",
+			title: "进击的Java菜鸟",
+			desc: "这是一本java程序员写的必备知识积累之书。可以说是一本进击之书。",
+			link: "https://fhfirehuo.github.io/Attacking-Java-Rookie/"
+		},
+		{
+			icon: "https://favicon.im/xiaolincoding.com",
+			title: "小林coding",
+			desc: "图解计算机网络、操作系统、计算机组成、数据库，让天下没有难懂的八股文！",
+			link: "https://xiaolincoding.com/"
+		},
+		{
+			icon: "https://favicon.im/www.letianbiji.com",
+			title: "乐天笔记",
+			desc: "一个涵盖Java及各种常用框架和其他语言等系统性学习宝库",
+			link: "https://www.letianbiji.com/"
+		},
+		{
+			icon: "https://favicon.im/zq99299.github.io",
+			title: "MRCODE-BOOK",
+			desc: "用来记录工作和学习过程中的笔记，汇总成册方便查阅，内容涵盖各类技术",
+			link: "https://zq99299.github.io/note-book/"
+		},
+		{
+			icon: "https://favicon.im/www.ddkk.com",
+			title: "弟弟快看",
+			desc: "程序员编程资料站，内容覆盖、Java核心、J2EE框架、ORM框架、前端框架、安全框架、API网关、消息队列、作业调度、注册中心、配置中心、链路追踪、服务保障、搜索引擎、容器服务、开发工具、监控工具、设计模式、架构设计、工作流框架、服务器框架、大数据框架、分布式事务、缓存-数据库、数据库连接池、数据库中间件、XML语言教程、等技术栈",
+			link: "https://www.ddkk.com/"
+		},
+		{
+			icon: "https://favicon.im/www.thebyte.com.cn",
+			title: "深入高可用架构原理与实践",
+			desc: "本书主要针对软件工程师、软件架构师以及技术负责人等，特别是那些需要对系统架构做权衡的人，譬如时常需要选择一些工具去解决某个领域的特定问题。",
+			link: "https://www.thebyte.com.cn/intro.html"
+		},
+	]
+  },
+  {
     title: "常用工具",
     items: [
       {
