@@ -44,7 +44,7 @@ export function LinkItem({ NavLink }: { NavLink: NavLink }) {
 							/>
 						) : (
 							<span
-								className={`h-full w-full rounded-full ${randomColor} text-center font-bold leading-10 text-white`}
+								className={`h-full w-full rounded-full ${randomColor} flex items-center justify-center text-white font-bold text-xl`}
 							>
                 {NavLink.title[0]}
               </span>
