@@ -49,7 +49,7 @@ export function LinkItem({ NavLink }: { NavLink: NavLink }) {
               </span>
 						)}
 					</div>
-					<span className="text-xl font-bold text-primary">{NavLink.title}</span>
+					<span className="text-xl font-bold text-primary truncate">{NavLink.title}</span>
 				</div>
 				<div className="mt-2 line-clamp-2 text-sm text-primary">{NavLink.desc}</div>
 			</div>
