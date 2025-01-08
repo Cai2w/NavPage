@@ -31,7 +31,8 @@ export function LinkItem({ NavLink }: { NavLink: NavLink }) {
 		<Link href={NavLink.link} target="_blank">
 			<div className="relative mb-6 flex min-h-[122px] min-w-0 cursor-pointer flex-col break-words rounded-lg border border-gray-200 p-4 shadow-md transition-all hover:-translate-y-1 hover:scale-105 hover:bg-border hover:shadow-lg xl:mb-0">
 				<div className="flex items-center">
-					<div className="mr-3 flex h-10 w-10 overflow-hidden rounded-full">
+					{/* 使用 flex-shrink-0 确保 icon 不会缩小 */}
+					<div className="mr-3 flex h-10 w-10 flex-shrink-0 overflow-hidden rounded-full">
 						{NavLink.icon && !iconError ? (
 							<Image
 								src={NavLink.icon}
@@ -49,7 +50,8 @@ export function LinkItem({ NavLink }: { NavLink: NavLink }) {
               </span>
 						)}
 					</div>
-					<span className="text-xl font-bold text-primary truncate">{NavLink.title}</span>
+					{/* 使用 flex-grow 和 truncate 来确保 title 不会超出容器 */}
+					<span className="text-xl font-bold text-primary truncate flex-grow">{NavLink.title}</span>
 				</div>
 				<div className="mt-2 line-clamp-2 text-sm text-primary">{NavLink.desc}</div>
 			</div>
