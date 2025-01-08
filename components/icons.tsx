@@ -3,10 +3,8 @@ import {
 	Moon,
 	SunMedium,
 	Twitter,
-	AlarmPlus,
 	type Icon as LucideIcon,
-	BellPlus,
-	FolderPlus, GitBranchPlus, ImagePlus, ListPlus, MailPlus, PackagePlus, PlusCircle, PlusSquare, Plus, SmilePlus
+	ListPlus
 } from "lucide-react"
 
 export type Icon = LucideIcon
