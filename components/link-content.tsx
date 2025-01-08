@@ -67,7 +67,7 @@ export function LinkContent() {
 							<div className="my-4">
 								<h1 className="mb-2 text-2xl font-bold text-primary/80 sm:text-3xl">{category.title}</h1>
 							</div>
-							<div className="grid grid-cols-1 gap-3 md:grid-cols-2 md:gap-6 lg:grid-cols-3 2xl:grid-cols-5">
+							<div className="grid grid-cols-1 gap-3 md:grid-cols-2 md:gap-6 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
 								{category.items.map((item) => (
 									<LinkItem NavLink={item} key={item.title} />
 								))}
