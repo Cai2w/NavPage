@@ -30,67 +30,8 @@ type NavData = {
 
 export const NavData: NavData[] = [
   {
-    title: "优秀站点",
-    items: [
-		{
-			icon: "https://favicon.im/pdai.tech",
-			title: "Java 全栈知识体系",
-			desc: "非常全面的知识库站点",
-			link: "https://pdai.tech"
-		},
-		{
-			icon: "https://favicon.im/learn.lianglianglee.com",
-			title: "技术文章摘抄",
-			desc: "计算机相关技术文章汇总",
-			link: "https://learn.lianglianglee.com/"
-		},
-		{
-			icon: "https://favicon.im/fhfirehuo.github.io",
-			title: "进击的Java菜鸟",
-			desc: "这是一本java程序员写的必备知识积累之书。可以说是一本进击之书。",
-			link: "https://fhfirehuo.github.io/Attacking-Java-Rookie/"
-		},
-		{
-			icon: "https://favicon.im/xiaolincoding.com",
-			title: "小林coding",
-			desc: "图解计算机网络、操作系统、计算机组成、数据库，让天下没有难懂的八股文！",
-			link: "https://xiaolincoding.com/"
-		},
-		{
-			icon: "https://favicon.im/www.letianbiji.com",
-			title: "乐天笔记",
-			desc: "一个涵盖Java及各种常用框架和其他语言等系统性学习宝库",
-			link: "https://www.letianbiji.com/"
-		},
-		{
-			icon: "https://favicon.im/zq99299.github.io",
-			title: "MRCODE-BOOK",
-			desc: "用来记录工作和学习过程中的笔记，汇总成册方便查阅，内容涵盖各类技术",
-			link: "https://zq99299.github.io/note-book/"
-		},
-		{
-			icon: "https://favicon.im/www.ddkk.com",
-			title: "弟弟快看",
-			desc: "程序员编程资料站，内容覆盖、Java核心、J2EE框架、ORM框架、前端框架、安全框架、API网关、消息队列、作业调度、注册中心、配置中心、链路追踪、服务保障、搜索引擎、容器服务、开发工具、监控工具、设计模式、架构设计、工作流框架、服务器框架、大数据框架、分布式事务、缓存-数据库、数据库连接池、数据库中间件、XML语言教程、等技术栈",
-			link: "https://www.ddkk.com/"
-		},
-		{
-			icon: "https://favicon.im/www.thebyte.com.cn",
-			title: "深入高可用架构原理与实践",
-			desc: "本书主要针对软件工程师、软件架构师以及技术负责人等，特别是那些需要对系统架构做权衡的人，譬如时常需要选择一些工具去解决某个领域的特定问题。",
-			link: "https://www.thebyte.com.cn/intro.html"
-		},
-	]
-  },
-  {
     title: "常用工具",
     items: [
-      {
-        icon: "https://caniuse.com/img/favicon-128.png",
-        title: "Can I use",
-        desc: "前端 API 兼容性查询",
-        link: "https://caniuse.com"
-      },
       {
         icon: "https://tinypng.com/images/apple-touch-icon.png",
         title: "TinyPNG",
@@ -98,10 +39,46 @@ export const NavData: NavData[] = [
         link: "https://tinypng.com"
       },
       {
+      	icon: "https://favicon.im/iui.su",
+      	title: "不死鸟",
+      	desc: "专注分享优质资源",
+      	link: "https://iui.su/"
+      },
+	  {
+      	icon: "https://favicon.im/www.toyaml.com",
+      	title: "YAML格式转换",
+      	desc: "在线yaml转properties-在线properties转yaml",
+      	link: "https://www.toyaml.com/"
+      },
+	  {
+      	icon: "https://favicon.im",
+      	title: "Favicon.im",
+      	desc: "立即获取并显示任何网站的Favicon",
+      	link: "https://favicon.im/"
+      },
+      {
         icon: "https://tool.lu/favicon.ico",
         title: "在线工具",
         desc: "开发人员的工具箱",
         link: "https://tool.lu"
+      },
+	  {
+        icon: "https://favicon.im/api.vvhan.com",
+        title: "韩小韩WebAPI接口",
+        desc: "致力于为开发者提供便捷、免费、稳定、快速的免费Web API数据接口服务。",
+        link: "https://api.vvhan.com/"
+      },
+	  {
+        icon: "/icons/30tool.png",
+        title: "30TOOL",
+        desc: "小而美的工具网",
+        link: "https://www.30aitool.com/"
+      },
+	  {
+        icon: "/icons/drawio.png",
+        title: "DrawIo",
+        desc: "一款强大的流程图工具",
+        link: "https://draw.io/"
       },
       {
         icon: "https://processon.com/favicon.ico",
@@ -148,6 +125,256 @@ export const NavData: NavData[] = [
     ]
   },
 
+  {
+		title: "社区",
+		items: [
+			{
+				icon: "/icons/stackoverflow.png",
+				title: "Stack Overflow",
+				desc: "全球最大的技术问答网站",
+				link: "https://stackoverflow.com"
+			},
+			{
+				title: "稀土掘金",
+				icon: "/icons/juejin.png",
+				desc: "面向全球中文开发者的技术内容分享与交流平台",
+				link: "https://juejin.cn"
+			},
+			{
+				title: "V2EX",
+				icon: "/icons/icon-196.png",
+				desc: "一个关于分享和探索的地方",
+				link: "https://www.v2ex.com"
+			},
+			{
+				title: "SegmentFault 思否",
+				icon: "https://static.segmentfault.com/main_site_next/0dc4bace/touch-icon.png",
+				desc: "技术问答开发者社区",
+				link: "https://segmentfault.com"
+			},
+			{
+				title: "博客园",
+				icon: "/icons/cnblogs.svg",
+				desc: "博客园是一个面向开发者的知识分享社区",
+				link: "https://www.cnblogs.com"
+			},
+			{
+				title: "知乎",
+				icon: "https://static.zhihu.com/heifetz/assets/apple-touch-icon-60.362a8eac.png",
+				desc: "中文互联网高质量的问答社区和创作者聚集的原创内容平台",
+				link: "https://zhihu.com"
+			},
+			{
+				title: "51CTO",
+				icon: "https://favicon.im/www.51cto.com",
+				desc: "51CTO是中国领先的IT技术在线学习平台和中国最大的IT技术社区之一，通过丰富且高质量的IT技术在线教育资源，完整覆盖就业培训、在职提升、认证考试等职业教育领域",
+				link: "https://www.51cto.com/"
+			},
+			{
+				title: "Ruby china",
+				icon: "https://favicon.im/ruby-china.org",
+				desc: "国内最权威的 Ruby 社区",
+				link: "https://ruby-china.org/"
+			},
+			{
+				title: "OSCHINA开源中国",
+				icon: "/icons/oschina.png",
+				desc: "中文开源技术社区，传播开源的理念，推广开源项目，为 IT 开发者提供了一个发现、使用、并交流开源技术的平台",
+				link: "https://www.oschina.net/"
+			}
+		]
+	},
+	
+  {
+		title: "优秀站点",
+		items: [
+			{
+				icon: "https://favicon.im/pdai.tech",
+				title: "Java 全栈知识体系",
+				desc: "非常全面的知识库站点",
+				link: "https://pdai.tech"
+			},
+			{
+				icon: "https://favicon.im/learn.lianglianglee.com",
+				title: "技术文章摘抄",
+				desc: "计算机相关技术文章汇总",
+				link: "https://learn.lianglianglee.com/"
+			},
+			{
+				icon: "https://favicon.im/fhfirehuo.github.io",
+				title: "进击的Java菜鸟",
+				desc: "这是一本java程序员写的必备知识积累之书。可以说是一本进击之书。",
+				link: "https://fhfirehuo.github.io/Attacking-Java-Rookie/"
+			},
+			{
+				icon: "https://favicon.im/xiaolincoding.com",
+				title: "小林coding",
+				desc: "图解计算机网络、操作系统、计算机组成、数据库，让天下没有难懂的八股文！",
+				link: "https://xiaolincoding.com/"
+			},
+			{
+				icon: "https://favicon.im/www.letianbiji.com",
+				title: "乐天笔记",
+				desc: "一个涵盖Java及各种常用框架和其他语言等系统性学习宝库",
+				link: "https://www.letianbiji.com/"
+			},
+			{
+				icon: "https://favicon.im/zq99299.github.io",
+				title: "MRCODE-BOOK",
+				desc: "用来记录工作和学习过程中的笔记，汇总成册方便查阅，内容涵盖各类技术",
+				link: "https://zq99299.github.io/note-book/"
+			},
+			{
+				icon: "https://favicon.im/www.ddkk.com",
+				title: "弟弟快看",
+				desc: "程序员编程资料站，内容覆盖、Java核心、J2EE框架、ORM框架、前端框架、安全框架、API网关、消息队列、作业调度、注册中心、配置中心、链路追踪、服务保障、搜索引擎、容器服务、开发工具、监控工具、设计模式、架构设计、工作流框架、服务器框架、大数据框架、分布式事务、缓存-数据库、数据库连接池、数据库中间件、XML语言教程、等技术栈",
+				link: "https://www.ddkk.com/"
+			},
+			{
+				icon: "https://favicon.im/www.thebyte.com.cn",
+				title: "深入高可用架构原理与实践",
+				desc: "本书主要针对软件工程师、软件架构师以及技术负责人等，特别是那些需要对系统架构做权衡的人，譬如时常需要选择一些工具去解决某个领域的特定问题。",
+				link: "https://www.thebyte.com.cn/intro.html"
+			},
+		]
+	},
+
+  {
+		title: "代码托管",
+		items: [
+			{
+				title: "Github",
+				icon: "/icons/github.svg",
+				desc: "一个面向开源及私有软件项目的托管平台",
+				link: "https://github.com"
+			},
+			{
+				title: "Gitee",
+				desc: "Gitee 是中国领先的基于 Git 的代码托管平台，类似于全球知名的 GitHub",
+				icon: "/icons/gitee.ico",
+				link: "https://gitee.com/"
+			},
+			{
+				title: "Gitlab",
+				desc: "更快地交付安全代码，部署到任何云，并推动业务成果",
+				icon: "https://gitlab.com/uploads/-/system/group/avatar/6543/logo-extra-whitespace.png?width=64",
+				link: "https://gitlab.com/"
+			},
+			{
+				title: "Gitea",
+				desc: "Gitea 是一个开源社区驱动的轻量级代码托管解决方案，后端采用 Go 编写，采用 MIT 许可证.",
+				icon: "/icons/gitea.svg",
+				link: "https://gitea.io/"
+			},
+			{
+				title: "Coding",
+				desc: "提供一站式研发管理平台及云原生开发工具，让软件研发如同工业生产般简单高效，助力企业提升研发管理效能",
+				icon: "/icons/coding.png",
+				link: "https://coding.net/"
+			}
+		]
+	},
+  {
+		title: "UI设计",
+		items: [
+			{
+				title: "Mastergo",
+				desc: "面向团队的专业 UI/UX 设计工具，多人同时编辑、随时在线评审、设计一键交付，让想法更快实现",
+				icon: "https://mastergo.com/favicon.ico",
+				link: "https://mastergo.com/"
+			},
+			{
+				title: "即时设计",
+				desc: "可云端编辑的专业级 UI 设计工具，为中国设计师量身打造，Windows 也能用的「协作版 Sketch」",
+				icon: "https://img.js.design/assets/webImg/favicon.ico",
+				link: "https://js.design/"
+			},
+			{
+				title: "Figma",
+				desc: "Figma 是为 UI 设计而生的设计工具，除了有和 Sketch 一样基本的操作和功能，还有许多专为 UI 设计而生的强大功能。",
+				icon: "/icons/figma.png",
+				link: "https://www.figma.com/"
+			},
+			{
+				title: "Pixso",
+				desc: "一站式完成原型、设计、交互与交付，为数字化团队协作提效",
+				icon: "https://cms.pixso.cn/images/logo.svg",
+				link: "https://pixso.cn/"
+			}
+		]
+	},
+  {
+		title: "字体图标",
+		items: [
+			{
+				title: "iconify",
+				desc: "数千个图标，一个统一的框架",
+				icon: "https://icon-sets.iconify.design/favicon.ico",
+				link: "https://icon-sets.iconify.design/"
+			},
+			{
+				title: "icones",
+				desc: "Icon Explorer with Instant searching, powered by Iconify",
+				icon: "https://icones.js.org/favicon.svg",
+				link: "https://icones.js.org/"
+			},
+			{
+				title: "iconfont",
+				desc: "iconfont-国内功能很强大且图标内容很丰富的矢量图标库，提供矢量图标下载、在线存储、格式转换等功能",
+				icon: "https://img.alicdn.com/imgextra/i4/O1CN01EYTRnJ297D6vehehJ_!!6000000008020-55-tps-64-64.svg",
+				link: "https://www.iconfont.cn/"
+			},
+			{
+				title: "Font Awesome",
+				desc: "一套绝佳的图标字体库和CSS框架",
+				icon: "/icons/fontawesomeicon.png",
+				link: "https://fontawesome.com/search?o=r&m=free"
+			},
+			{
+				title: "feathericons",
+				desc: "简单美丽的开源图标",
+				icon: "https://feathericons.com/favicon.ico",
+				link: "https://feathericons.com/"
+			},
+			{
+				title: "undraw",
+				desc: "一个不断更新的设计项目与美丽的SVG图像，使用完全免费",
+				icon: "https://undraw.co/apple-touch-icon.png",
+				link: "https://undraw.co/"
+			},
+			{
+				title: "igoutu",
+				desc: "图标、插图、照片、音乐和设计工具",
+				icon: "/icons/igoutu.png",
+				link: "https://igoutu.cn/"
+			},
+			{
+				title: "Emojiall",
+				desc: "Emoji表情大全",
+				icon: "https://www.emojiall.com/apple-touch-icon.png",
+				link: "https://www.emojiall.com/zh-hans"
+			},
+			{
+				title: "渐变色网站",
+				desc: "数百万个自动生成的渐变的网站",
+				icon: "/icons/gradihunt.png",
+				link: "https://gradihunt.com/"
+			},
+			{
+				title: "谷歌字体",
+				desc: "一个生成渐变色背景的网站",
+				icon: "/icons/google_fonts.ico",
+				link: "https://googlefonts.cn/"
+			},
+			{
+				title: "Typing SVG",
+				desc: "一个动态生成的可自定义 SVG 打字效果",
+				icon: "/icons/typing-svg.png",
+				link: "https://readme-typing-svg.herokuapp.com/demo/"
+			}
+		]
+	},
+	
   {
     title: "React",
     items: [
@@ -616,106 +843,6 @@ export const NavData: NavData[] = [
     ]
   },
   {
-    title: "UI设计",
-    items: [
-      {
-        title: "Mastergo",
-        desc: "面向团队的专业 UI/UX 设计工具，多人同时编辑、随时在线评审、设计一键交付，让想法更快实现",
-        icon: "https://mastergo.com/favicon.ico",
-        link: "https://mastergo.com/"
-      },
-      {
-        title: "即时设计",
-        desc: "可云端编辑的专业级 UI 设计工具，为中国设计师量身打造，Windows 也能用的「协作版 Sketch」",
-        icon: "https://img.js.design/assets/webImg/favicon.ico",
-        link: "https://js.design/"
-      },
-      {
-        title: "Figma",
-        desc: "Figma 是为 UI 设计而生的设计工具，除了有和 Sketch 一样基本的操作和功能，还有许多专为 UI 设计而生的强大功能。",
-        icon: "/icons/figma.png",
-        link: "https://www.figma.com/"
-      },
-      {
-        title: "Pixso",
-        desc: "一站式完成原型、设计、交互与交付，为数字化团队协作提效",
-        icon: "https://cms.pixso.cn/images/logo.svg",
-        link: "https://pixso.cn/"
-      },
-      {
-        title: "AIDesign",
-        desc: "10秒创建您的LOGO！",
-        icon: "https://ailogo.qq.com//favicon.ico?v=1.1",
-        link: "https://ailogo.qq.com/"
-      }
-    ]
-  },
-  {
-    title: "字体图标",
-    items: [
-      {
-        title: "iconify",
-        desc: "数千个图标，一个统一的框架",
-        icon: "https://icon-sets.iconify.design/favicon.ico",
-        link: "https://icon-sets.iconify.design/"
-      },
-      {
-        title: "icones",
-        desc: "Icon Explorer with Instant searching, powered by Iconify",
-        icon: "https://icones.js.org/favicon.svg",
-        link: "https://icones.js.org/"
-      },
-      {
-        title: "iconfont",
-        desc: "iconfont-国内功能很强大且图标内容很丰富的矢量图标库，提供矢量图标下载、在线存储、格式转换等功能",
-        icon: "https://img.alicdn.com/imgextra/i4/O1CN01EYTRnJ297D6vehehJ_!!6000000008020-55-tps-64-64.svg",
-        link: "https://www.iconfont.cn/"
-      },
-      {
-        title: "feathericons",
-        desc: "简单美丽的开源图标",
-        icon: "https://feathericons.com/favicon.ico",
-        link: "https://feathericons.com/"
-      },
-      {
-        title: "undraw",
-        desc: "一个不断更新的设计项目与美丽的SVG图像，使用完全免费",
-        icon: "https://undraw.co/apple-touch-icon.png",
-        link: "https://undraw.co/"
-      },
-      {
-        title: "igoutu",
-        desc: "图标、插图、照片、音乐和设计工具",
-        icon: "/icons/igoutu.png",
-        link: "https://igoutu.cn/"
-      },
-      {
-        title: "Emojiall",
-        desc: "Emoji表情大全",
-        icon: "https://www.emojiall.com/apple-touch-icon.png",
-        link: "https://www.emojiall.com/zh-hans"
-      },
-      {
-        title: "渐变色网站",
-        desc: "数百万个自动生成的渐变的网站",
-        icon: "https://gradihunt.com/favicon.ico",
-        link: "https://gradihunt.com/"
-      },
-      {
-        title: "谷歌字体",
-        desc: "一个生成渐变色背景的网站",
-        icon: "/icons/google_fonts.ico",
-        link: "https://googlefonts.cn/"
-      },
-      {
-        title: "Typing SVG",
-        desc: "一个动态生成的可自定义 SVG 打字效果",
-        icon: "/icons/typing-svg.png",
-        link: "https://readme-typing-svg.herokuapp.com/demo/"
-      }
-    ]
-  },
-  {
     title: "跨平台",
     items: [
       {
@@ -756,13 +883,13 @@ export const NavData: NavData[] = [
       {
         title: "VitePress",
         desc: "Vue 驱动并使用Vite构建的静态网站生成器",
-        icon: "https://vuepress.vuejs.org/hero.png",
+        icon: "https://vitepress.dev/vitepress-logo-mini.png",
         link: "https://vitepress.vuejs.org"
       },
       {
         title: "VuePress",
         desc: "Vue 驱动的静态网站生成器",
-        icon: "https://vuepress.vuejs.org/hero.png",
+        icon: "https://vuepress.vuejs.org/images/hero.png",
         link: "https://vuepress.vuejs.org"
       },
       {
@@ -798,120 +925,44 @@ export const NavData: NavData[] = [
     ]
   },
   {
-    title: "代码托管",
-    items: [
-      {
-        title: "Github",
-        icon: "/icons/github.ico",
-        desc: "一个面向开源及私有软件项目的托管平台",
-        link: "https://github.com"
-      },
-      {
-        title: "Gitee",
-        desc: "Gitee 是中国领先的基于 Git 的代码托管平台，类似于全球知名的 GitHub",
-        icon: "/icons/gitee.ico",
-        link: "https://gitee.com/"
-      },
-      {
-        title: "Gitlab",
-        desc: "更快地交付安全代码，部署到任何云，并推动业务成果",
-        icon: "https://gitlab.com/uploads/-/system/group/avatar/6543/logo-extra-whitespace.png?width=64",
-        link: "https://gitlab.com/"
-      },
-      {
-        title: "Gitea",
-        desc: "Gitea 是一个开源社区驱动的轻量级代码托管解决方案，后端采用 Go 编写，采用 MIT 许可证.",
-        icon: "https://gitea.io/images/favicon.png",
-        link: "https://gitea.io/"
-      },
-      {
-        title: "Coding",
-        desc: "提供一站式研发管理平台及云原生开发工具，让软件研发如同工业生产般简单高效，助力企业提升研发管理效能",
-        icon: "/icons/coding.png",
-        link: "https://coding.net/"
-      }
-    ]
-  },
-  {
-    title: "网站托管",
-    items: [
-      {
-        title: "Vercel",
-        desc: "Vercel将最好的开发人员体验与对最终用户性能的执着关注相结合",
-        icon: "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/57x57.png",
-        link: "https://vercel.com"
-      },
-      {
-        title: "Netlify",
-        desc: "Netlify 是一家提供静态网站托管的云平台，支持从 Github, GitLab, Bitbucket 等代码仓库中自动拉取代码 然后进行项目打包和部署等功能",
-        icon: "/icons/netlify.png",
-        link: "https://www.netlify.com"
-      },
-      {
-        title: "Coolify",
-        desc: "一个开源和自我托管的 Heroku/Netlify 替代品",
-        icon: "/icons/coolify.png",
-        link: "https://coolify.io"
-      },
-      {
-        title: "GitHub Codespace",
-        desc: "全球最大的软件项目托管平台，发现优质开源项目",
-        icon: "https://github.githubassets.com/favicons/favicon.svg",
-        link: "https://github.com/codespaces"
-      },
-      {
-        title: "Railway",
-        desc: "带上你的代码，剩下交给我们 ",
-        icon: "/icons/railway.png",
-        link: "https://railway.app/"
-      },
-      {
-        title: "Supabase",
-        desc: "Supabase 是一个开源的后端即服务（BaaS）平台，它可以帮助开发者快速构建应用程序，无需编写后端代码。",
-        icon: "/icons/supabase.png",
-        link: "https://supabase.com/"
-      }
-    ]
-  },
-  {
-    title: "社区",
-    items: [
-      {
-        icon: "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a",
-        title: "Stack Overflow",
-        desc: "全球最大的技术问答网站",
-        link: "https://stackoverflow.com"
-      },
-      {
-        title: "稀土掘金",
-        icon: "https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web//static/favicons/apple-touch-icon.png",
-        desc: "面向全球中文开发者的技术内容分享与交流平台",
-        link: "https://juejin.cn"
-      },
-      {
-        title: "V2EX",
-        icon: "https://www.v2ex.com/static/icon-192.png",
-        desc: "一个关于分享和探索的地方",
-        link: "https://www.v2ex.com"
-      },
-      {
-        title: "SegmentFault 思否",
-        icon: "https://static.segmentfault.com/main_site_next/0dc4bace/touch-icon.png",
-        desc: "技术问答开发者社区",
-        link: "https://segmentfault.com"
-      },
-      {
-        title: "博客园",
-        icon: "/icons/cnblogs.svg",
-        desc: "博客园是一个面向开发者的知识分享社区",
-        link: "https://www.cnblogs.com"
-      },
-      {
-        title: "知乎",
-        icon: "https://static.zhihu.com/heifetz/assets/apple-touch-icon-60.362a8eac.png",
-        desc: "中文互联网高质量的问答社区和创作者聚集的原创内容平台",
-        link: "https://zhihu.com"
-      }
-    ]
-  }
+		title: "网站托管",
+		items: [
+			{
+				title: "Vercel",
+				desc: "Vercel将最好的开发人员体验与对最终用户性能的执着关注相结合",
+				icon: "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/57x57.png",
+				link: "https://vercel.com"
+			},
+			{
+				title: "Netlify",
+				desc: "Netlify 是一家提供静态网站托管的云平台，支持从 Github, GitLab, Bitbucket 等代码仓库中自动拉取代码 然后进行项目打包和部署等功能",
+				icon: "/icons/netlify.png",
+				link: "https://www.netlify.com"
+			},
+			{
+				title: "Coolify",
+				desc: "一个开源和自我托管的 Heroku/Netlify 替代品",
+				icon: "/icons/coolify.png",
+				link: "https://coolify.io"
+			},
+			{
+				title: "GitHub Codespace",
+				desc: "全球最大的软件项目托管平台，发现优质开源项目",
+				icon: "https://github.githubassets.com/favicons/favicon.svg",
+				link: "https://github.com/codespaces"
+			},
+			{
+				title: "Railway",
+				desc: "带上你的代码，剩下交给我们 ",
+				icon: "/icons/railway.png",
+				link: "https://railway.app/"
+			},
+			{
+				title: "Supabase",
+				desc: "Supabase 是一个开源的后端即服务（BaaS）平台，它可以帮助开发者快速构建应用程序，无需编写后端代码。",
+				icon: "/icons/supabase.png",
+				link: "https://supabase.com/"
+			}
+		]
+	},
 ]
