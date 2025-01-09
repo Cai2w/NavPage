@@ -13,6 +13,9 @@ export default {
       }
     },
     extend: {
+		boxShadow: {
+			'underline': 'var(--box-shadow-color, rgba(0, 0, 0, 0.45)) 0 25px 20px -20px',
+		},
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

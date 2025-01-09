@@ -29,7 +29,7 @@ export function LinkItem({ NavLink }: { NavLink: NavLink }) {
 
 	return (
 		<Link href={NavLink.link} target="_blank">
-			<div className="relative mb-6 flex min-h-[122px] min-w-0 cursor-pointer flex-col break-words rounded-lg border border-gray-200 p-4 shadow-md transition-all hover:-translate-y-1 hover:scale-105 hover:bg-border hover:shadow-lg xl:mb-0">
+			<div className="relative mb-6 flex min-h-[122px] min-w-0 cursor-pointer flex-col break-words rounded-lg border border-gray-200 p-4 shadow-md transition-all hover:-translate-y-1 hover:scale-105  hover:shadow-underline xl:mb-0">
 				<div className="flex items-center">
 					{/* 使用 flex-shrink-0 确保 icon 不会缩小 */}
 					<div className="mr-3 flex h-10 w-10 flex-shrink-0 overflow-hidden rounded-full">
