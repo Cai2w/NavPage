@@ -17,9 +17,9 @@ export const metadata: Metadata = {
     { media: "(prefers-color-scheme: dark)", color: "black" }
   ],
   icons: {
-    icon: "/logo.ico",
-    shortcut: "/favicon-16x16.png",
-    apple: "/apple-touch-icon.png"
+    icon: "/logo.png",
+    shortcut: "/logo-16x16.jpg",
+    apple: "/logo.png"
   }
 }
 

@@ -69,10 +69,40 @@ export const NavData: NavData[] = [
         link: "https://api.vvhan.com/"
       },
 	  {
+        icon: "https://favicon.im/skillicons.dev",
+        title: "Skill Icons",
+        desc: "轻松地在Github或简历上展示您的技能！",
+        link: "https://skillicons.dev/"
+      },
+	  {
+        icon: "https://favicon.im/www.aigei.com",
+        title: "BgRemover",
+        desc: "在线图片去底工具 - 将纯色背景的图片转换为背景透明的图片",
+        link: "https://www.aigei.com/bgremover"
+      },
+	  {
         icon: "/icons/30tool.png",
         title: "30TOOL",
         desc: "小而美的工具网",
         link: "https://www.30aitool.com/"
+      },
+	  {
+        icon: "https://favicon.im/uptimerobot.com",
+        title: "Uptime Robot",
+        desc: "服务监控平台",
+        link: "https://uptimerobot.com/"
+      },
+	  {
+        icon: "/icons/convert.png",
+        title: "Aconvert",
+        desc: "在线转换PDF，在线转换文档，在线转换电子书，在线转换图像，在线转换视频，在线转换音频。",
+        link: "https://www.aconvert.com/cn/"
+      },
+	  {
+        icon: "https://favicon.im/convertio.co",
+        title: "Convertio",
+        desc: "在线转换文件的简单工具。支持超过309种不同的文档、图像、电子表格、电子书、文档、演示文稿、音频和视频格式。",
+        link: "https://convertio.co/zh/"
       },
 	  {
         icon: "/icons/drawio.png",
@@ -311,6 +341,12 @@ export const NavData: NavData[] = [
 				desc: "数千个图标，一个统一的框架",
 				icon: "https://icon-sets.iconify.design/favicon.ico",
 				link: "https://icon-sets.iconify.design/"
+			},
+			{
+				title: "FLATICON",
+				desc: "The most wanted free SVG user interface icons",
+				icon: "/icons/flaticon.png",
+				link: "https://www.flaticon.com/"
 			},
 			{
 				title: "icones",

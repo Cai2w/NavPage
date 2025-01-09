@@ -92,3 +92,25 @@
 ::view-transition-new(root) {
   z-index: 1;
 }
+/* 自定义滚动条样式 */
+::-webkit-scrollbar {
+	width: 8px; /* 滚动条宽度 */
+	height: 8px; /* 滚动条高度 */
+}
+
+/* 滚动条轨道 */
+::-webkit-scrollbar-track {
+	background: rgb(243, 244, 246); /* 使用主题的次要背景色 */
+	border-radius: 4px; /* 圆角 */
+}
+
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+	background: rgb(168, 85, 247);; /* 使用主题的主色 */
+	border-radius: 4px; /* 圆角 */
+}
+
+/* 滚动条滑块悬停效果 */
+::-webkit-scrollbar-thumb:hover {
+	background: rgb(147, 51, 234); /* 使用主题的主前景色 */
+}
