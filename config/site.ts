@@ -373,6 +373,12 @@ export const NavData: NavData[] = [
 				link: "https://feathericons.com/"
 			},
 			{
+				title: "xicons",
+				desc: "xicons - Icons for Vue & React",
+				icon: "https://favicon.im/www.xicons.org",
+				link: "https://www.xicons.org/#/"
+			},
+			{
 				title: "undraw",
 				desc: "一个不断更新的设计项目与美丽的SVG图像，使用完全免费",
 				icon: "https://undraw.co/apple-touch-icon.png",
