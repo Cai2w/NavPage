@@ -1,7 +1,7 @@
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
-  name: "Kiro | 编程导航",
+  name: "Kiro | Nav Page",
   description: "基于 Next.js 的编程导航网站",
   mainNav: [],
   links: {
