@@ -51,7 +51,7 @@ export const NavData: NavData[] = [
       	link: "https://www.toyaml.com/"
       },
 	  {
-      	icon: "https://favicon.im",
+      	icon: "",
       	title: "Favicon.im",
       	desc: "立即获取并显示任何网站的Favicon",
       	link: "https://favicon.im/"
@@ -231,7 +231,7 @@ export const NavData: NavData[] = [
 				link: "https://learn.lianglianglee.com/"
 			},
 			{
-				icon: "https://favicon.im/fhfirehuo.github.io",
+				icon: "https://fhfirehuo.github.io/Attacking-Java-Rookie/gitbook/images/favicon.ico",
 				title: "进击的Java菜鸟",
 				desc: "这是一本java程序员写的必备知识积累之书。可以说是一本进击之书。",
 				link: "https://fhfirehuo.github.io/Attacking-Java-Rookie/"
@@ -249,7 +249,7 @@ export const NavData: NavData[] = [
 				link: "https://www.letianbiji.com/"
 			},
 			{
-				icon: "https://favicon.im/zq99299.github.io",
+				icon: "https://zq99299.github.io/note-book/favicon.ico",
 				title: "MRCODE-BOOK",
 				desc: "用来记录工作和学习过程中的笔记，汇总成册方便查阅，内容涵盖各类技术",
 				link: "https://zq99299.github.io/note-book/"
@@ -616,7 +616,7 @@ export const NavData: NavData[] = [
         link: "https://sass-lang.com"
       },
       {
-        icon: "https://www.tailwindcss.cn/apple-touch-icon.png",
+        icon: "https://favicon.im/www.tailwindcss.cn",
         title: "TailwindCSS 中文网",
         desc: "一个功能类优先的 CSS 框架",
         link: "https://www.tailwindcss.cn"
