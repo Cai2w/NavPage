@@ -375,7 +375,7 @@ export const NavData: NavData[] = [
 			{
 				title: "xicons",
 				desc: "xicons - Icons for Vue & React",
-				icon: "https://favicon.im/www.xicons.org",
+				icon: "https://www.xicons.org/favicon.svg",
 				link: "https://www.xicons.org/#/"
 			},
 			{
