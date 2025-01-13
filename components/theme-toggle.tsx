@@ -36,8 +36,15 @@ export function ThemeToggle() {
       )
     })
   }
+	// const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
   const handleToggleTheme = (event: React.MouseEvent<HTMLButtonElement>) => {
-    const isSupport = document.startViewTransition() && !window.matchMedia("(prefers-reduced-motion: reduce)").matches
+	  // if (isMobile) {
+		//   toggleTheme(); // 在移动端直接切换主题
+		//   return;
+	  // }
+
+	// 如果不支持 View Transition API，则直接切换主题
+    const isSupport = 'startViewTransition' in document && document.startViewTransition() && !window.matchMedia("(prefers-reduced-motion: reduce)").matches
 
     if (!isSupport) {
       toggleTheme()
