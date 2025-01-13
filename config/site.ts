@@ -29,6 +29,35 @@ type NavData = {
 }
 
 export const NavData: NavData[] = [
+	{
+		title: "🔥 HOT",
+		items: [
+			{
+				icon: "https://mdn.alipayobjects.com/huamei_0prmtq/afts/img/A*sHlLTI41kIoAAAAAAAAAAAAADvuFAQ/original",
+				title: "从零带你写框架",
+				desc: "立志成为框架boy",
+				link: "https://www.yuque.com/u26328320/om70pd"
+			},
+			{
+				icon: "/icons/rust.svg",
+				title: "Rust语言圣经",
+				desc: "一份高质量 Rust 教程",
+				link: "https://course.rs"
+			},
+			{
+				icon: "/icons/juejin.png",
+				title: "掘金小册",
+				desc: "还是要抽时间学习呀",
+				link: "https://juejin.cn/my-course"
+			},
+			{
+				icon: "https://favicon.im/www.fre321.com",
+				title: "FRE123",
+				desc: "免费资源共享平台",
+				link: "https://www.fre321.com/"
+			}
+		]
+	},
   {
     title: "常用工具",
     items: [
@@ -43,6 +72,12 @@ export const NavData: NavData[] = [
       	title: "不死鸟",
       	desc: "专注分享优质资源",
       	link: "https://iui.su/"
+      },
+	  {
+      	icon: "https://favicon.im/linux.lylme.com",
+      	title: "Linux命令查询",
+      	desc: "最专业的Linux命令大全，内容包含Linux命令手册、详解、学习，值得收藏的Linux命令速查手册。",
+      	link: "https://linux.lylme.com/"
       },
 	  {
       	icon: "https://favicon.im/www.toyaml.com",
@@ -91,6 +126,12 @@ export const NavData: NavData[] = [
         title: "Uptime Robot",
         desc: "服务监控平台",
         link: "https://uptimerobot.com/"
+      },
+	  {
+        icon: "/icons/erweima.png",
+        title: "草料二维码",
+        desc: "一站式二维码生成工具，免费可用。",
+        link: "https://cli.im/"
       },
 	  {
         icon: "/icons/convert.png",
@@ -151,6 +192,12 @@ export const NavData: NavData[] = [
         title: "Apifox",
         desc: "API 文档、API 调试、API Mock、API 自动化测试",
         link: "https://www.apifox.cn/"
+      },
+	  {
+        icon: "https://favicon.im/www.fre321.com",
+        title: "FRE123",
+        desc: "免费资源共享平台",
+        link: "https://www.fre321.com/"
       }
     ]
   },
@@ -210,6 +257,12 @@ export const NavData: NavData[] = [
 				icon: "https://xinghuo.xfyun.cn/vulcan/static/media/login-spark.63ddea4c18b2c671e90014281c42034c.svg",
 				desc: "全语音对话发音人上新，新增特色助手，优化用户体验",
 				link: "https://xinghuo.xfyun.cn/desk"
+			},
+			{
+				title: "AI工具箱导航",
+				icon: "https://favicon.im/www.amz123.com",
+				desc: "国内外AI工具导航合集",
+				link: "https://www.amz123.com/ai"
 			}
 		]
 	},
