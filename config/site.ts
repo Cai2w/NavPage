@@ -99,7 +99,7 @@ export const NavData: NavData[] = [
         link: "https://www.aconvert.com/cn/"
       },
 	  {
-        icon: "https://favicon.im/convertio.co",
+        icon: "/icons/convertio.png",
         title: "Convertio",
         desc: "在线转换文件的简单工具。支持超过309种不同的文档、图像、电子表格、电子书、文档、演示文稿、音频和视频格式。",
         link: "https://convertio.co/zh/"
@@ -154,6 +154,65 @@ export const NavData: NavData[] = [
       }
     ]
   },
+  {
+		title: "AI导航",
+		items: [
+			{
+				icon: "/icons/chatgpt.png",
+				title: "ChatGPT",
+				desc: "地表最强AI聊天机器人",
+				link: "https://chatgpt.com/"
+			},
+			{
+				title: "Claude",
+				icon: "/icons/claude.webp",
+				desc: "可为用户提供聊天对话、认知推理和视觉识别等功能",
+				link: "https://claude.ai/"
+			},
+			{
+				title: "Deep Seek",
+				icon: "/icons/deepseek.png",
+				desc: "幻方量化旗下深度求索推出的开源大模型和聊天助手",
+				link: "https://www.deepseek.com/"
+			},
+			{
+				title: "TheB.AI",
+				icon: "/icons/beta.theb.jpg",
+				desc: "集成多个AI大模型的通用型聊天助手",
+				link: "https://beta.theb.ai/home"
+			},
+			{
+				title: "通义千问",
+				icon: "/icons/tongyi.png",
+				desc: "阿里云推出的一个超大规模的语言模型，功能包括多轮对话、文案创作、逻辑推理、多模态理解、多语言支持",
+				link: "https://tongyi.aliyun.com/"
+			},
+			{
+				title: "Gemini",
+				icon: "/icons/gemini.png",
+				desc: "Google推出的AI聊天对话机器人Bard",
+				link: "https://gemini.google.com/app"
+			},
+			{
+				title: "文心一言",
+				icon: "/icons/wenxin.png",
+				desc: "百度推出的基于文心大模型的AI对话互动工具",
+				link: "https://yiyan.baidu.com/"
+			},
+			{
+				title: "豆包",
+				icon: "/icons/doubao.jpg",
+				desc: "抖音旗下AI工具，你的智能助手",
+				link: "https://www.doubao.com/chat/"
+			},
+			{
+				title: "讯飞星火大模型",
+				icon: "https://xinghuo.xfyun.cn/vulcan/static/media/login-spark.63ddea4c18b2c671e90014281c42034c.svg",
+				desc: "全语音对话发音人上新，新增特色助手，优化用户体验",
+				link: "https://xinghuo.xfyun.cn/desk"
+			}
+		]
+	},
 
   {
 		title: "社区",
@@ -211,6 +270,12 @@ export const NavData: NavData[] = [
 				icon: "/icons/oschina.png",
 				desc: "中文开源技术社区，传播开源的理念，推广开源项目，为 IT 开发者提供了一个发现、使用、并交流开源技术的平台",
 				link: "https://www.oschina.net/"
+			},
+			{
+				title: "LINUX DO",
+				icon: "/icons/linuxdo.png",
+				desc: "LINUX DO是一个以人工智能为主题的中文社区，用户可以分享自己的经验、问题、教程和资源。浏览最新的话题，参与讨论，或者发表自己的观点，与其他开发者交流。",
+				link: "https://linux.do/"
 			}
 		]
 	},
@@ -371,6 +436,12 @@ export const NavData: NavData[] = [
   {
 		title: "字体图标",
 		items: [
+			{
+				title: "IconPark",
+				desc: "IconPark, park your icon. Made by ByteDance",
+				icon: "/icons/IconPark.svg",
+				link: "https://iconpark.oceanengine.com/official"
+			},
 			{
 				title: "iconify",
 				desc: "数千个图标，一个统一的框架",
