@@ -268,6 +268,41 @@ export const NavData: NavData[] = [
 			},
 		]
 	},
+	{
+		title: "云服务",
+		items: [
+			{
+				title: "Cloudflare",
+				icon: "https://favicon.im/www.cloudflare.com",
+				desc: "使员工、应用程序和网络在任何地方都更快、更安全，同时降低复杂性和成本。",
+				link: "https://www.cloudflare.com/zh-cn/"
+			},
+			{
+				title: "阿里云",
+				desc: "提供免费试用、云服务器、云数据库、云安全、云企业应用等云计算服务，以及大数据、人工智能服务、精准定制基于场景的行业解决方案。免费备案，7x24小时售后支持，助企业无忧上云。",
+				icon: "/icons/aliyun.png",
+				link: "https://www.aliyun.com/"
+			},
+			{
+				title: "腾讯云",
+				desc: "涵盖云服务器、云数据库、云存储、视频与CDN、域名注册等全方位云服务和各行业解决方案。",
+				icon: "/icons/tengxunyun.png",
+				link: "https://cloud.tencent.com/"
+			},
+			{
+				title: "七牛云",
+				desc: "七牛云致力于成为全球领先的一站式场景化智能音视频 APaaS 服务商，围绕数字化浪潮下的在线音视频需求，基于强大的云边一体化能力和低代码能力，持续在视频点播、互动直播、实时音视频、摄像头上云等领域，进行深度技术投入，提供面向业务场景的视频云解决方案。",
+				icon: "/icons/qiniuyun.png",
+				link: "https://www.qiniu.com/"
+			},
+			{
+				title: "又拍云",
+				desc: "国内知名企业级云服务商,全球1100多个自建CDN节点,10TB保有带宽,为25万用户提供CDN加速,数据云存储,HTTPS／SSL证书,WebP,云处理,视频图片存储,短视频开发SDK,直播开发SDK,DDos高防等一站式加速解决方案!",
+				icon: "/icons/upyun.png",
+				link: "https://www.upyun.com/"
+			}
+		]
+	},
 
   {
 		title: "代码托管",
