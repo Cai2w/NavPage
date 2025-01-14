@@ -1166,4 +1166,15 @@ export const NavData: NavData[] = [
 			}
 		]
 	},
+	{
+		title: "邮箱",
+		items: [
+			{
+				title: "沈阳理工教育邮箱",
+				desc: "沈阳理工大学 - 邮箱用户登录",
+				icon: "/icons/sylu.png",
+				link: "http://email.sylu.edu.cn/"
+			},
+		]
+	}
 ]
