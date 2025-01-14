@@ -55,7 +55,13 @@ export const NavData: NavData[] = [
 				title: "FRE123",
 				desc: "免费资源共享平台",
 				link: "https://www.fre321.com/"
-			}
+			},
+			{
+				title: "Tauri",
+				desc: "Tauri是一个框架，用于为所有主要桌面平台构建小巧、快速的二进制文件",
+				icon: "https://tauri.app/meta/favicon-96x96.png",
+				link: "https://tauri.app/"
+			},
 		]
 	},
   {
