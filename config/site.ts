@@ -1193,6 +1193,18 @@ export const NavData: NavData[] = [
 				icon: "/icons/sylu.png",
 				link: "http://email.sylu.edu.cn/"
 			},
+			{
+				title: "Gmail",
+				desc: "谷歌公司旗下的邮箱服务",
+				icon: "/icons/gmail.png",
+				link: "https://mail.google.com/"
+			},
+			{
+				title: "QQ邮箱",
+				desc: "腾讯公司旗下的邮箱服务",
+				icon: "/icons/qq-mail.png",
+				link: "https://mail.qq.com/"
+			},
 		]
 	}
 ]
