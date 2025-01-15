@@ -1205,6 +1205,12 @@ export const NavData: NavData[] = [
 				icon: "/icons/qq-mail.png",
 				link: "https://mail.qq.com/"
 			},
+			{
+				title: "网易邮箱",
+				desc: "网易公司旗下的邮箱服务",
+				icon: "/icons/wangyi.png",
+				link: "https://mail.163.com/"
+			},
 		]
 	}
 ]
