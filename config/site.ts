@@ -45,6 +45,12 @@ export const NavData: NavData[] = [
 				link: "https://course.rs"
 			},
 			{
+				icon: "/icons/rust.png",
+				title: "Rust语言实战",
+				desc: "通过有挑战性的示例、练习题、实践项目来提升 Rust 水平，建立从入门学习到上手实战的直通桥梁",
+				link: "https://zh.practice.rs"
+			},
+			{
 				icon: "/icons/juejin.png",
 				title: "掘金小册",
 				desc: "还是要抽时间学习呀",
@@ -1046,7 +1052,13 @@ export const NavData: NavData[] = [
         title: "Rust语言圣经",
         desc: "一份高质量 Rust 教程",
         link: "https://course.rs"
-      }
+      },
+      {
+        icon: "/icons/rust.png",
+        title: "Rust语言实战",
+        desc: "通过有挑战性的示例、练习题、实践项目来提升 Rust 水平，建立从入门学习到上手实战的直通桥梁",
+        link: "https://zh.practice.rs"
+      },
     ]
   },
   {
