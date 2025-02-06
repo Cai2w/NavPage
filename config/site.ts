@@ -39,6 +39,12 @@ export const NavData: NavData[] = [
 				link: "https://www.yuque.com/u26328320/om70pd"
 			},
 			{
+				icon: "/icons/doc.png",
+				title: "文档中心",
+				desc: "墙裂推荐! 非常全面完整的文章合集",
+				link: "https://ailibrary.space/"
+			},
+			{
 				icon: "/icons/rust.svg",
 				title: "Rust语言圣经",
 				desc: "一份高质量 Rust 教程",
@@ -65,7 +71,7 @@ export const NavData: NavData[] = [
 			{
 				title: "Tauri",
 				desc: "Tauri是一个框架，用于为所有主要桌面平台构建小巧、快速的二进制文件",
-				icon: "https://tauri.app/meta/favicon-96x96.png",
+				icon: "/icons/tauri.png",
 				link: "https://tauri.app/"
 			},
 		]
@@ -395,6 +401,12 @@ export const NavData: NavData[] = [
 				title: "深入高可用架构原理与实践",
 				desc: "本书主要针对软件工程师、软件架构师以及技术负责人等，特别是那些需要对系统架构做权衡的人，譬如时常需要选择一些工具去解决某个领域的特定问题。",
 				link: "https://www.thebyte.com.cn/intro.html"
+			},
+			{
+				icon: "/icons/doc.png",
+				title: "文档中心",
+				desc: "墙裂推荐! 非常全面完整的文章合集",
+				link: "https://ailibrary.space/"
 			},
 		]
 	},
@@ -1073,7 +1085,7 @@ export const NavData: NavData[] = [
       {
         title: "Tauri",
         desc: "Tauri是一个框架，用于为所有主要桌面平台构建小巧、快速的二进制文件",
-        icon: "https://tauri.app/meta/favicon-96x96.png",
+        icon: "/icons/tauri.png",
         link: "https://tauri.app/"
       },
       {
@@ -1192,6 +1204,24 @@ export const NavData: NavData[] = [
 				desc: "沈阳理工大学 - 邮箱用户登录",
 				icon: "/icons/sylu.png",
 				link: "http://email.sylu.edu.cn/"
+			},
+			{
+				title: "Gmail",
+				desc: "谷歌公司旗下的邮箱服务",
+				icon: "/icons/gmail.png",
+				link: "https://mail.google.com/"
+			},
+			{
+				title: "QQ邮箱",
+				desc: "腾讯公司旗下的邮箱服务",
+				icon: "/icons/qq-mail.png",
+				link: "https://mail.qq.com/"
+			},
+			{
+				title: "网易邮箱",
+				desc: "网易公司旗下的邮箱服务",
+				icon: "/icons/wangyi.png",
+				link: "https://mail.163.com/"
 			},
 		]
 	}
