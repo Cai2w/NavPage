@@ -80,6 +80,12 @@ export const NavData: NavData[] = [
         link: "https://tinypng.com"
       },
       {
+        icon: "https://favicon.im/cursor.jeter.eu.org",
+        title: "CURSOR VIP",
+        desc: "cursor vip 自动续费工具",
+        link: "https://cursor.jeter.eu.org/"
+      },
+      {
       	icon: "https://favicon.im/iui.su",
       	title: "不死鸟",
       	desc: "专注分享优质资源",
