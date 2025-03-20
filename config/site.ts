@@ -570,7 +570,7 @@ export const NavData: NavData[] = [
 			{
 				title: "xicons",
 				desc: "xicons - Icons for Vue & React",
-				icon: "https://www.xicons.org/favicon.svg",
+				icon: "/icons/xicons.svg",
 				link: "https://www.xicons.org/#/"
 			},
 			{
@@ -634,7 +634,7 @@ export const NavData: NavData[] = [
         link: "https://reactrouter.com"
       },
       {
-        icon: "https://nextjs.org/static/favicon/safari-pinned-tab.svg",
+        icon: "https://favicon.im/nextjs.org",
         title: "Next.js",
         desc: "一个用于 Web 的 React 框架",
         link: "https://nextjs.org"
@@ -658,7 +658,7 @@ export const NavData: NavData[] = [
         link: "https://mobile.ant.design"
       },
       {
-        icon: "https://docs.pmnd.rs/apple-touch-icon.png",
+        icon: "/icons/zustand.ico",
         title: "Zustand",
         desc: "一个小型、快速、可扩展的 React 状态管理解决方案",
         link: "https://docs.pmnd.rs/zustand/getting-started/introduction"
@@ -670,7 +670,7 @@ export const NavData: NavData[] = [
         link: "https://valtio.pmnd.rs"
       },
       {
-        icon: "https://jotai.org/favicon.svg",
+        icon: "/icons/jotai.svg",
         title: "Jotai",
         desc: "primitive and flexible state management for React",
         link: "https://jotai.org"
@@ -811,13 +811,13 @@ export const NavData: NavData[] = [
     title: "CSS",
     items: [
       {
-        icon: "https://postcss.org/assets/logo-3e39b0aa.svg",
+        icon: "https://favicon.im/postcss.org",
         title: "PostCSS",
         desc: "一个用 JavaScript 转换 CSS 的工具",
         link: "https://postcss.org"
       },
       {
-        icon: "https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg",
+        icon: "https://favicon.im/sass-lang.com",
         title: "Sass",
         desc: "一个成熟，稳定，功能强大的专业级 CSS 扩展语言",
         link: "https://sass-lang.com"
@@ -843,8 +843,8 @@ export const NavData: NavData[] = [
       {
         title: "UnoCSS",
         desc: "即时按需原子 CSS 引擎",
-        icon: "https://uno.antfu.me//favicon.svg",
-        link: "https://uno.antfu.me/"
+        icon: "/icons/unocss.ico",
+        link: "https://unocss.dev/"
       },
       {
         title: "Bootstrap",
@@ -903,7 +903,7 @@ export const NavData: NavData[] = [
       {
         title: "HYPE4",
         desc: "透明玻璃态生成器",
-        icon: "https://hype4.academy/_next/static/media/logorwd@2x.b40bc92c.png",
+        icon: "/icons/hype4.png",
         link: "https://hype4.academy/tools/glassmorphism-generator"
       },
       {
@@ -913,10 +913,10 @@ export const NavData: NavData[] = [
         link: "https://omatsuri.app"
       },
       {
-        title: "smooth shadow",
-        desc: "快速轻松地实现基于 CSS 阴影的绝佳工具。您只需要指定一些阴影设置，代码就在您的路上。",
-        icon: "https://shadows.brumm.af/favicon.svg",
-        link: "https://shadows.brumm.af/"
+        title: "Neumorphism",
+        desc: "一个拟物的阴影生成工具，帮你创建具有质感的拟物阴影。",
+        icon: "https://favicon.im/neumorphism.io",
+        link: "https://neumorphism.io/"
       },
       {
         title: "FANCY-BORDER-RADIUS",
@@ -929,6 +929,36 @@ export const NavData: NavData[] = [
         desc: "创建调色板",
         icon: "/icons/coolors.png",
         link: "https://coolors.co/"
+      },
+      {
+        title: "CSS Clip-path Maker",
+        desc: "轻松生成各种独特的CSS路径裁剪(clip-path)代码。",
+        icon: "https://bennettfeely.com/clippy/pics/favicon.png",
+        link: "https://bennettfeely.com/clippy/"
+      },
+      {
+        title: "CSS Gradient",
+        desc: "免费的css渐变生成器工具，这个网站可以让你为你的网站创建一个彩色的渐变背景。",
+        icon: "https://favicon.im/cssgradient.io",
+        link: "https://cssgradient.io/"
+      },
+      {
+        title: "CSS Waves",
+        desc: "它能生成简单的波浪，并有一些自定义功能。",
+        icon: "https://favicon.im/getwaves.io",
+        link: "https://getwaves.io/"
+      },
+      {
+        title: "Multiple Animated Waves",
+        desc: "它可以生成多个渐变波浪，但主要特点是它还可以为此生成实时动画。",
+        icon: "https://favicon.im/svgwave.in",
+        link: "https://svgwave.in/"
+      },
+      {
+        title: "CSS grid",
+        desc: "它为网格生成了很棒的css，你可以用div来定制它，它还会为它创建子元素。",
+        icon: "https://favicon.im/cssgrid-generator.netlify.app",
+        link: "https://cssgrid-generator.netlify.app/"
       }
     ]
   },
@@ -936,7 +966,7 @@ export const NavData: NavData[] = [
     title: "Node",
     items: [
       {
-        icon: "https://deno.com/logo.svg",
+        icon: "https://favicon.im/deno.com",
         title: "deno",
         desc: "Deno is the open-source JavaScript runtime for the modern web.",
         link: "https://deno.com/"
@@ -1054,13 +1084,13 @@ export const NavData: NavData[] = [
     title: "前端文档",
     items: [
       {
-        icon: "https://developer.mozilla.org/apple-touch-icon.6803c6f0.png",
+        icon: "https://favicon.im/developer.mozilla.org",
         title: "MDN | Web 开发者指南",
         desc: "Mozilla 的开发者平台，提供了大量关于 HTML、CSS 和 JavaScript 的详细文档以及广泛的 Web API 参考资料",
         link: "https://developer.mozilla.org/zh-CN"
       },
       {
-        icon: "https://static.runoob.com/images/favicon.ico",
+        icon: "https://favicon.im/www.runoob.com",
         title: "菜鸟教程",
         desc: "学的不仅是技术，更是梦想！",
         link: "https://www.runoob.com"
@@ -1109,7 +1139,7 @@ export const NavData: NavData[] = [
       {
         title: "Flutter",
         desc: "Flutter 是 Google 开源的应用开发框架，仅通过一套代码库，就能构建精美的、原生平台编译的多平台应用",
-        icon: "https://flutter.cn/assets/images/cn/flutter-icon.png",
+        icon: "https://favicon.im/flutter.cn",
         link: "https://flutter.cn/"
       },
       {
