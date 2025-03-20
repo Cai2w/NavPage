@@ -976,7 +976,7 @@ export const NavData: NavData[] = [
 			{
 				title: "NPM",
 				desc: "NPM是世界上最大的包管理器",
-				icon: "https://static.npmjs.com/58a19602036db1daee0d7863c94673a4.png",
+				icon: "https://favicon.im/www.npmjs.com",
 				link: "https://www.npmjs.com"
 			},
 			{
