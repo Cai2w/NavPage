@@ -293,6 +293,65 @@ export const NavData: NavData[] = [
 
 
 	{
+		title: "优秀站点",
+		items: [
+			{
+				icon: "https://favicon.im/pdai.tech",
+				title: "Java 全栈知识体系",
+				desc: "非常全面的知识库站点",
+				link: "https://pdai.tech"
+			},
+			{
+				icon: "https://favicon.im/learn.lianglianglee.com",
+				title: "技术文章摘抄",
+				desc: "计算机相关技术文章汇总",
+				link: "https://learn.lianglianglee.com/"
+			},
+			{
+				icon: "https://fhfirehuo.github.io/Attacking-Java-Rookie/gitbook/images/favicon.ico",
+				title: "进击的Java菜鸟",
+				desc: "这是一本java程序员写的必备知识积累之书。可以说是一本进击之书。",
+				link: "https://fhfirehuo.github.io/Attacking-Java-Rookie/"
+			},
+			{
+				icon: "https://favicon.im/xiaolincoding.com",
+				title: "小林coding",
+				desc: "图解计算机网络、操作系统、计算机组成、数据库，让天下没有难懂的八股文！",
+				link: "https://xiaolincoding.com/"
+			},
+			{
+				icon: "https://favicon.im/www.letianbiji.com",
+				title: "乐天笔记",
+				desc: "一个涵盖Java及各种常用框架和其他语言等系统性学习宝库",
+				link: "https://www.letianbiji.com/"
+			},
+			{
+				icon: "https://zq99299.github.io/note-book/favicon.ico",
+				title: "MRCODE-BOOK",
+				desc: "用来记录工作和学习过程中的笔记，汇总成册方便查阅，内容涵盖各类技术",
+				link: "https://zq99299.github.io/note-book/"
+			},
+			{
+				icon: "https://favicon.im/www.ddkk.com",
+				title: "弟弟快看",
+				desc: "程序员编程资料站，内容覆盖、Java核心、J2EE框架、ORM框架、前端框架、安全框架、API网关、消息队列、作业调度、注册中心、配置中心、链路追踪、服务保障、搜索引擎、容器服务、开发工具、监控工具、设计模式、架构设计、工作流框架、服务器框架、大数据框架、分布式事务、缓存-数据库、数据库连接池、数据库中间件、XML语言教程、等技术栈",
+				link: "https://www.ddkk.com/"
+			},
+			{
+				icon: "https://favicon.im/www.thebyte.com.cn",
+				title: "深入高可用架构原理与实践",
+				desc: "本书主要针对软件工程师、软件架构师以及技术负责人等，特别是那些需要对系统架构做权衡的人，譬如时常需要选择一些工具去解决某个领域的特定问题。",
+				link: "https://www.thebyte.com.cn/intro.html"
+			},
+			{
+				icon: "/icons/doc.png",
+				title: "文档中心",
+				desc: "墙裂推荐! 非常全面完整的文章合集",
+				link: "https://ailibrary.space/"
+			},
+		]
+	},
+	{
 		title: "社区",
 		items: [
 			{
@@ -358,136 +417,6 @@ export const NavData: NavData[] = [
 		]
 	},
 
-	{
-		title: "优秀站点",
-		items: [
-			{
-				icon: "https://favicon.im/pdai.tech",
-				title: "Java 全栈知识体系",
-				desc: "非常全面的知识库站点",
-				link: "https://pdai.tech"
-			},
-			{
-				icon: "https://favicon.im/learn.lianglianglee.com",
-				title: "技术文章摘抄",
-				desc: "计算机相关技术文章汇总",
-				link: "https://learn.lianglianglee.com/"
-			},
-			{
-				icon: "https://fhfirehuo.github.io/Attacking-Java-Rookie/gitbook/images/favicon.ico",
-				title: "进击的Java菜鸟",
-				desc: "这是一本java程序员写的必备知识积累之书。可以说是一本进击之书。",
-				link: "https://fhfirehuo.github.io/Attacking-Java-Rookie/"
-			},
-			{
-				icon: "https://favicon.im/xiaolincoding.com",
-				title: "小林coding",
-				desc: "图解计算机网络、操作系统、计算机组成、数据库，让天下没有难懂的八股文！",
-				link: "https://xiaolincoding.com/"
-			},
-			{
-				icon: "https://favicon.im/www.letianbiji.com",
-				title: "乐天笔记",
-				desc: "一个涵盖Java及各种常用框架和其他语言等系统性学习宝库",
-				link: "https://www.letianbiji.com/"
-			},
-			{
-				icon: "https://zq99299.github.io/note-book/favicon.ico",
-				title: "MRCODE-BOOK",
-				desc: "用来记录工作和学习过程中的笔记，汇总成册方便查阅，内容涵盖各类技术",
-				link: "https://zq99299.github.io/note-book/"
-			},
-			{
-				icon: "https://favicon.im/www.ddkk.com",
-				title: "弟弟快看",
-				desc: "程序员编程资料站，内容覆盖、Java核心、J2EE框架、ORM框架、前端框架、安全框架、API网关、消息队列、作业调度、注册中心、配置中心、链路追踪、服务保障、搜索引擎、容器服务、开发工具、监控工具、设计模式、架构设计、工作流框架、服务器框架、大数据框架、分布式事务、缓存-数据库、数据库连接池、数据库中间件、XML语言教程、等技术栈",
-				link: "https://www.ddkk.com/"
-			},
-			{
-				icon: "https://favicon.im/www.thebyte.com.cn",
-				title: "深入高可用架构原理与实践",
-				desc: "本书主要针对软件工程师、软件架构师以及技术负责人等，特别是那些需要对系统架构做权衡的人，譬如时常需要选择一些工具去解决某个领域的特定问题。",
-				link: "https://www.thebyte.com.cn/intro.html"
-			},
-			{
-				icon: "/icons/doc.png",
-				title: "文档中心",
-				desc: "墙裂推荐! 非常全面完整的文章合集",
-				link: "https://ailibrary.space/"
-			},
-		]
-	},
-	{
-		title: "云服务",
-		items: [
-			{
-				title: "Cloudflare",
-				icon: "https://favicon.im/www.cloudflare.com",
-				desc: "使员工、应用程序和网络在任何地方都更快、更安全，同时降低复杂性和成本。",
-				link: "https://www.cloudflare.com/zh-cn/"
-			},
-			{
-				title: "阿里云",
-				desc: "提供免费试用、云服务器、云数据库、云安全、云企业应用等云计算服务，以及大数据、人工智能服务、精准定制基于场景的行业解决方案。免费备案，7x24小时售后支持，助企业无忧上云。",
-				icon: "/icons/aliyun.png",
-				link: "https://www.aliyun.com/"
-			},
-			{
-				title: "腾讯云",
-				desc: "涵盖云服务器、云数据库、云存储、视频与CDN、域名注册等全方位云服务和各行业解决方案。",
-				icon: "/icons/tengxunyun.png",
-				link: "https://cloud.tencent.com/"
-			},
-			{
-				title: "七牛云",
-				desc: "七牛云致力于成为全球领先的一站式场景化智能音视频 APaaS 服务商，围绕数字化浪潮下的在线音视频需求，基于强大的云边一体化能力和低代码能力，持续在视频点播、互动直播、实时音视频、摄像头上云等领域，进行深度技术投入，提供面向业务场景的视频云解决方案。",
-				icon: "/icons/qiniuyun.png",
-				link: "https://www.qiniu.com/"
-			},
-			{
-				title: "又拍云",
-				desc: "国内知名企业级云服务商,全球1100多个自建CDN节点,10TB保有带宽,为25万用户提供CDN加速,数据云存储,HTTPS／SSL证书,WebP,云处理,视频图片存储,短视频开发SDK,直播开发SDK,DDos高防等一站式加速解决方案!",
-				icon: "/icons/upyun.png",
-				link: "https://www.upyun.com/"
-			}
-		]
-	},
-
-	{
-		title: "代码托管",
-		items: [
-			{
-				title: "Github",
-				icon: "/icons/github.svg",
-				desc: "一个面向开源及私有软件项目的托管平台",
-				link: "https://github.com"
-			},
-			{
-				title: "Gitee",
-				desc: "Gitee 是中国领先的基于 Git 的代码托管平台，类似于全球知名的 GitHub",
-				icon: "/icons/gitee.ico",
-				link: "https://gitee.com/"
-			},
-			{
-				title: "Gitlab",
-				desc: "更快地交付安全代码，部署到任何云，并推动业务成果",
-				icon: "https://gitlab.com/uploads/-/system/group/avatar/6543/logo-extra-whitespace.png?width=64",
-				link: "https://gitlab.com/"
-			},
-			{
-				title: "Gitea",
-				desc: "Gitea 是一个开源社区驱动的轻量级代码托管解决方案，后端采用 Go 编写，采用 MIT 许可证.",
-				icon: "/icons/gitea.svg",
-				link: "https://gitea.io/"
-			},
-			{
-				title: "Coding",
-				desc: "提供一站式研发管理平台及云原生开发工具，让软件研发如同工业生产般简单高效，助力企业提升研发管理效能",
-				icon: "/icons/coding.png",
-				link: "https://coding.net/"
-			}
-		]
-	},
 	{
 		title: "UI设计",
 		items: [
@@ -616,6 +545,24 @@ export const NavData: NavData[] = [
 				icon: "/icons/typing-svg.png",
 				link: "https://readme-typing-svg.herokuapp.com/demo/"
 			}
+		]
+	},
+
+	{
+		title: "Rust",
+		items: [
+			{
+				icon: "/icons/rust.svg",
+				title: "Rust语言圣经",
+				desc: "一份高质量 Rust 教程",
+				link: "https://course.rs"
+			},
+			{
+				icon: "/icons/rust.png",
+				title: "Rust语言实战",
+				desc: "通过有挑战性的示例、练习题、实践项目来提升 Rust 水平，建立从入门学习到上手实战的直通桥梁",
+				link: "https://zh.practice.rs"
+			},
 		]
 	},
 
@@ -1120,18 +1067,6 @@ export const NavData: NavData[] = [
 				desc: "《TypeScript Deep Dive》 是一本很好的开源书，从基础到深入，很全面的阐述了 TypeScript 的各种魔法",
 				link: "https://jkchao.github.io/typescript-book-chinese/"
 			},
-			{
-				icon: "/icons/rust.svg",
-				title: "Rust语言圣经",
-				desc: "一份高质量 Rust 教程",
-				link: "https://course.rs"
-			},
-			{
-				icon: "/icons/rust.png",
-				title: "Rust语言实战",
-				desc: "通过有挑战性的示例、练习题、实践项目来提升 Rust 水平，建立从入门学习到上手实战的直通桥梁",
-				link: "https://zh.practice.rs"
-			},
 		]
 	},
 	{
@@ -1213,6 +1148,76 @@ export const NavData: NavData[] = [
 				desc: "WordPress是一款能让您建立出色网站、博客或应用程序的开源软件",
 				icon: "https://s.w.org/images/wmark.png",
 				link: "https://cn.wordpress.org/"
+			}
+		]
+	},
+	{
+		title: "云服务",
+		items: [
+			{
+				title: "Cloudflare",
+				icon: "https://favicon.im/www.cloudflare.com",
+				desc: "使员工、应用程序和网络在任何地方都更快、更安全，同时降低复杂性和成本。",
+				link: "https://www.cloudflare.com/zh-cn/"
+			},
+			{
+				title: "阿里云",
+				desc: "提供免费试用、云服务器、云数据库、云安全、云企业应用等云计算服务，以及大数据、人工智能服务、精准定制基于场景的行业解决方案。免费备案，7x24小时售后支持，助企业无忧上云。",
+				icon: "/icons/aliyun.png",
+				link: "https://www.aliyun.com/"
+			},
+			{
+				title: "腾讯云",
+				desc: "涵盖云服务器、云数据库、云存储、视频与CDN、域名注册等全方位云服务和各行业解决方案。",
+				icon: "/icons/tengxunyun.png",
+				link: "https://cloud.tencent.com/"
+			},
+			{
+				title: "七牛云",
+				desc: "七牛云致力于成为全球领先的一站式场景化智能音视频 APaaS 服务商，围绕数字化浪潮下的在线音视频需求，基于强大的云边一体化能力和低代码能力，持续在视频点播、互动直播、实时音视频、摄像头上云等领域，进行深度技术投入，提供面向业务场景的视频云解决方案。",
+				icon: "/icons/qiniuyun.png",
+				link: "https://www.qiniu.com/"
+			},
+			{
+				title: "又拍云",
+				desc: "国内知名企业级云服务商,全球1100多个自建CDN节点,10TB保有带宽,为25万用户提供CDN加速,数据云存储,HTTPS／SSL证书,WebP,云处理,视频图片存储,短视频开发SDK,直播开发SDK,DDos高防等一站式加速解决方案!",
+				icon: "/icons/upyun.png",
+				link: "https://www.upyun.com/"
+			}
+		]
+	},
+	{
+		title: "代码托管",
+		items: [
+			{
+				title: "Github",
+				icon: "/icons/github.svg",
+				desc: "一个面向开源及私有软件项目的托管平台",
+				link: "https://github.com"
+			},
+			{
+				title: "Gitee",
+				desc: "Gitee 是中国领先的基于 Git 的代码托管平台，类似于全球知名的 GitHub",
+				icon: "/icons/gitee.ico",
+				link: "https://gitee.com/"
+			},
+			{
+				title: "Gitlab",
+				desc: "更快地交付安全代码，部署到任何云，并推动业务成果",
+				icon: "https://gitlab.com/uploads/-/system/group/avatar/6543/logo-extra-whitespace.png?width=64",
+				link: "https://gitlab.com/"
+			},
+			{
+				title: "Gitea",
+				desc: "Gitea 是一个开源社区驱动的轻量级代码托管解决方案，后端采用 Go 编写，采用 MIT 许可证.",
+				icon: "/icons/gitea.svg",
+				link: "https://gitea.io/"
+			},
+			{
+				title: "Coding",
+				desc: "提供一站式研发管理平台及云原生开发工具，让软件研发如同工业生产般简单高效，助力企业提升研发管理效能",
+				icon: "/icons/coding.png",
+				link: "https://coding.net/"
 			}
 		]
 	},
