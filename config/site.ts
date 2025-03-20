@@ -698,6 +698,12 @@ export const NavData: NavData[] = [
         title: "ahooks",
         desc: "一套高质量可靠的 React Hooks 库",
         link: "https://ahooks.js.org/zh-CN"
+      },
+      {
+        icon: "https://favicon.im/component-party.lainbo.com",
+        title: "JavaScript 框架语法特性对比",
+        desc: "JavaScript 框架语法特性对比-中文版",
+        link: "https://component-party.lainbo.com/"
       }
     ]
   },
@@ -775,6 +781,12 @@ export const NavData: NavData[] = [
         title: "NutUI",
         desc: "京东风格的轻量级移动端组件库",
         link: "https://nutui.jd.com"
+      },
+      {
+        icon: "https://favicon.im/component-party.lainbo.com",
+        title: "JavaScript 框架语法特性对比",
+        desc: "JavaScript 框架语法特性对比-中文版",
+        link: "https://component-party.lainbo.com/"
       }
     ]
   },
