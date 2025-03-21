@@ -1152,7 +1152,7 @@ export const NavData: NavData[] = [
 		]
 	},
 	{
-		title: "☁ 云服务",
+		title: "🎈 云服务",
 		items: [
 			{
 				title: "Cloudflare",
