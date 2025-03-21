@@ -79,7 +79,7 @@ export function LinkContent() {
 				})}
 				<div id={String(NavData.length)} key="contact" className="mb-12">
 					<div className="my-4">
-						<h1 className="mb-2 text-2xl font-bold text-primary/80 sm:text-3xl">联系我</h1>
+						<h1 className="mb-2 text-2xl font-bold text-primary/80 sm:text-3xl">🐟 联系我</h1>
 					</div>
 					<div>
 						你可以通过

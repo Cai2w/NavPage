@@ -77,7 +77,7 @@ export const NavData: NavData[] = [
 		]
 	},
 	{
-		title: "常用工具",
+		title: "⚙ 常用工具",
 		items: [
 			{
 				icon: "https://tinypng.com/images/apple-touch-icon.png",
@@ -226,7 +226,7 @@ export const NavData: NavData[] = [
 		]
 	},
 	{
-		title: "AI导航",
+		title: "🤖 AI导航",
 		items: [
 			{
 				icon: "/icons/chatgpt.png",
@@ -293,7 +293,7 @@ export const NavData: NavData[] = [
 
 
 	{
-		title: "优秀站点",
+		title: "🔗 优秀站点",
 		items: [
 			{
 				icon: "https://favicon.im/pdai.tech",
@@ -352,7 +352,7 @@ export const NavData: NavData[] = [
 		]
 	},
 	{
-		title: "社区",
+		title: "🏠 社区",
 		items: [
 			{
 				icon: "/icons/stackoverflow.png",
@@ -418,7 +418,7 @@ export const NavData: NavData[] = [
 	},
 
 	{
-		title: "UI设计",
+		title: "🎨 UI设计",
 		items: [
 			{
 				title: "Mastergo",
@@ -447,7 +447,7 @@ export const NavData: NavData[] = [
 		]
 	},
 	{
-		title: "字体图标",
+		title: "🧩 字体图标",
 		items: [
 			{
 				title: "Lucide",
@@ -549,7 +549,7 @@ export const NavData: NavData[] = [
 	},
 
 	{
-		title: "Rust",
+		title: "🍠 Rust",
 		items: [
 			{
 				icon: "/icons/rust.svg",
@@ -567,7 +567,7 @@ export const NavData: NavData[] = [
 	},
 
 	{
-		title: "React",
+		title: "🎉 React",
 		items: [
 			{
 				icon: "https://zh-hans.reactjs.org/favicon.ico",
@@ -656,7 +656,7 @@ export const NavData: NavData[] = [
 		]
 	},
 	{
-		title: "Vue",
+		title: "🚀 Vue",
 		items: [
 			{
 				icon: "https://cn.vuejs.org/logo.svg",
@@ -739,7 +739,7 @@ export const NavData: NavData[] = [
 		]
 	},
 	{
-		title: "JavaScript",
+		title: "🌰 JavaScript",
 		items: [
 			{
 				icon: "https://svelte.dev/svelte-logo-horizontal.svg",
@@ -768,7 +768,7 @@ export const NavData: NavData[] = [
 		]
 	},
 	{
-		title: "CSS",
+		title: "🍒 CSS",
 		items: [
 			{
 				icon: "https://favicon.im/postcss.org",
@@ -923,7 +923,7 @@ export const NavData: NavData[] = [
 		]
 	},
 	{
-		title: "Node",
+		title: "⛵ Node",
 		items: [
 			{
 				icon: "https://favicon.im/deno.com",
@@ -994,7 +994,7 @@ export const NavData: NavData[] = [
 		]
 	},
 	{
-		title: "构建工具",
+		title: "🛠 构建工具",
 		items: [
 			{
 				icon: "https://www.webpackjs.com/icon_180x180.png",
@@ -1041,7 +1041,7 @@ export const NavData: NavData[] = [
 		]
 	},
 	{
-		title: "前端文档",
+		title: "📚 前端文档",
 		items: [
 			{
 				icon: "https://favicon.im/developer.mozilla.org",
@@ -1070,7 +1070,7 @@ export const NavData: NavData[] = [
 		]
 	},
 	{
-		title: "跨平台",
+		title: "⚖ 跨平台",
 		items: [
 			{
 				title: "Electron",
@@ -1105,7 +1105,7 @@ export const NavData: NavData[] = [
 		]
 	},
 	{
-		title: "站点生成",
+		title: "🎪 站点生成",
 		items: [
 			{
 				title: "VitePress",
@@ -1152,7 +1152,7 @@ export const NavData: NavData[] = [
 		]
 	},
 	{
-		title: "云服务",
+		title: "☁ 云服务",
 		items: [
 			{
 				title: "Cloudflare",
@@ -1187,7 +1187,7 @@ export const NavData: NavData[] = [
 		]
 	},
 	{
-		title: "代码托管",
+		title: "📦 代码托管",
 		items: [
 			{
 				title: "Github",
@@ -1222,7 +1222,7 @@ export const NavData: NavData[] = [
 		]
 	},
 	{
-		title: "网站托管",
+		title: "🗃️ 网站托管",
 		items: [
 			{
 				title: "Vercel",
@@ -1263,7 +1263,7 @@ export const NavData: NavData[] = [
 		]
 	},
 	{
-		title: "邮箱",
+		title: "📫 邮箱",
 		items: [
 			{
 				title: "沈阳理工教育邮箱",

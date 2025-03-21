@@ -76,7 +76,7 @@ export function Sidebar() {
                     onClick={() => scroll(NavData.length)}
                   >
                     <div className="scale relative mb-2 flex items-center gap-2 rounded-r-lg p-2 transition-colors ease-in-out before:transition-colors hover:no-underline sm:border-l-0 sm:pl-6 sm:before:absolute sm:before:left-[-5px] sm:before:top-[2px] sm:before:h-[calc(100%-4px)] sm:before:w-[10px] sm:before:rounded-full sm:before:transition-colors">
-                      <span className="truncate text-sm">联系我</span>
+                      <span className="truncate text-sm">🐟 联系我</span>
                     </div>
                   </div>
                 </div>
