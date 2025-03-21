@@ -40,8 +40,8 @@ export const NavData: NavData[] = [
 			},
 			{
 				icon: "/icons/doc.png",
-				title: "文档中心",
-				desc: "墙裂推荐! 非常全面完整的文章合集",
+				title: "AI Library",
+				desc: "人工智能知识库和文档中心",
 				link: "https://ailibrary.space/"
 			},
 			{
@@ -345,8 +345,8 @@ export const NavData: NavData[] = [
 			},
 			{
 				icon: "/icons/doc.png",
-				title: "文档中心",
-				desc: "墙裂推荐! 非常全面完整的文章合集",
+				title: "AI Library",
+				desc: "人工智能知识库和文档中心",
 				link: "https://ailibrary.space/"
 			},
 		]
