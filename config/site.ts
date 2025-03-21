@@ -416,6 +416,29 @@ export const NavData: NavData[] = [
 			}
 		]
 	},
+	{
+		title: "📺 影视资源",
+		items: [
+			{
+				title: "亿苯正经的Alist库",
+				desc: "本站资源存储在某国内网盘，不限速。全站资源约10T，免费共享给大家",
+				icon: "https://favicon.im/pan.lm379.cn",
+				link: "https://pan.lm379.cn/"
+			},
+			{
+				title: "小雅的分类Alist",
+				desc: "小雅的分类Alist",
+				icon: "https://s2.loli.net/2023/04/24/Z9bMjB3TutzKDGY.png",
+				link: "https://alist.xiaoya.pro/"
+			},
+			{
+				title: "七米蓝的仓库",
+				desc: "七米蓝的仓库",
+				icon: "https://favicon.im/al.chirmyram.com?larger=true",
+				link: "https://al.chirmyram.com/"
+			},
+		]
+	},
 
 	{
 		title: "🎨 UI设计",
