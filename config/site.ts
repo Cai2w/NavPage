@@ -98,6 +98,12 @@ export const NavData: NavData[] = [
 				link: "https://iui.su/"
 			},
 			{
+				icon: "https://favicon.im/remove.photos",
+				title: "remove photos",
+				desc: "免费、好用的图片处理工具。抠图、裁剪、着色、消除......",
+				link: "https://remove.photos/zh-cn/"
+			},
+			{
 				icon: "https://favicon.im/linux.lylme.com",
 				title: "Linux命令查询",
 				desc: "最专业的Linux命令大全，内容包含Linux命令手册、详解、学习，值得收藏的Linux命令速查手册。",
