@@ -223,12 +223,6 @@ export const NavData: NavData[] = [
 				desc: "API 文档、API 调试、API Mock、API 自动化测试",
 				link: "https://www.apifox.cn/"
 			},
-			{
-				icon: "https://favicon.im/www.fre321.com",
-				title: "FRE123",
-				desc: "免费资源共享平台",
-				link: "https://www.fre321.com/"
-			}
 		]
 	},
 	{
@@ -423,7 +417,7 @@ export const NavData: NavData[] = [
 		]
 	},
 	{
-		title: "📺 影视资源",
+		title: "🗂 资源汇总",
 		items: [
 			{
 				title: "亿苯正经的Alist库",
@@ -442,6 +436,12 @@ export const NavData: NavData[] = [
 				desc: "七米蓝的仓库",
 				icon: "https://favicon.im/al.chirmyram.com?larger=true",
 				link: "https://al.chirmyram.com/"
+			},
+			{
+				icon: "https://favicon.im/www.fre321.com",
+				title: "FRE123",
+				desc: "免费资源共享平台",
+				link: "https://www.fre321.com/"
 			},
 		]
 	},
