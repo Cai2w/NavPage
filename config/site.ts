@@ -443,6 +443,12 @@ export const NavData: NavData[] = [
 				desc: "免费资源共享平台",
 				link: "https://www.fre321.com/"
 			},
+			{
+				icon: "https://favicon.im/cxy521.com",
+				title: "程序员导航",
+				desc: "程序员一站式导航网站",
+				link: "http://cxy521.com/"
+			},
 		]
 	},
 
