@@ -2,7 +2,7 @@
 
 import Image from "next/image"
 import Link from "next/link"
-import { useState } from "react" // 引入 useState
+import { useState, useMemo } from "react" // 引入 useState 和 useMemo
 
 import { NavData, type NavLink } from "@/config/site"
 
@@ -25,7 +25,8 @@ const getRandomColor = () => {
 
 export function LinkItem({ NavLink }: { NavLink: NavLink }) {
 	const [iconError, setIconError] = useState(false)
-	const randomColor = getRandomColor() // 为每个图标生成随机颜色
+	// 使用 useMemo 缓存随机颜色，使用 title 作为 key 确保每个链接项都有唯一的颜色
+	const randomColor = useMemo(() => getRandomColor(), [NavLink.title])
 
 	return (
 		<Link href={NavLink.link} target="_blank">
