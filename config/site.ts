@@ -57,6 +57,12 @@ export const NavData: NavData[] = [
 				link: "https://zh.practice.rs"
 			},
 			{
+				icon: "/icons/qianguyihao.svg",
+				title: "千古前端图文教程",
+				desc: "千古前端图文教程，超详细的 Web 前端入门到进阶知识库。从零开始学前端，做一名精致优雅的前端工程师。持续更新中...",
+				link: "https://web.qianguyihao.com/"
+			},
+			{
 				icon: "/icons/juejin.png",
 				title: "掘金小册",
 				desc: "还是要抽时间学习呀",
@@ -1089,6 +1095,12 @@ export const NavData: NavData[] = [
 				title: "菜鸟教程",
 				desc: "学的不仅是技术，更是梦想！",
 				link: "https://www.runoob.com"
+			},
+			{
+				icon: "/icons/qianguyihao.svg",
+				title: "千古前端图文教程",
+				desc: "千古前端图文教程，超详细的 Web 前端入门到进阶知识库。从零开始学前端，做一名精致优雅的前端工程师。持续更新中...",
+				link: "https://web.qianguyihao.com/"
 			},
 			{
 				icon: "/icons/es6.png",
