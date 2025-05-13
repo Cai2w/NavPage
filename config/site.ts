@@ -271,6 +271,12 @@ export const NavData: NavData[] = [
 				link: "https://gemini.google.com/app"
 			},
 			{
+				title: "manus",
+				icon: "/icons/manus.png",
+				desc: "Manus是一个将你的想法变为行动的通用AI助手。",
+				link: "https://manus.im/app"
+			},
+			{
 				title: "文心一言",
 				icon: "/icons/wenxin.png",
 				desc: "百度推出的基于文心大模型的AI对话互动工具",
@@ -1306,6 +1312,23 @@ export const NavData: NavData[] = [
 				desc: "Supabase 是一个开源的后端即服务（BaaS）平台，它可以帮助开发者快速构建应用程序，无需编写后端代码。",
 				icon: "/icons/supabase.png",
 				link: "https://supabase.com/"
+			}
+		]
+	},
+	{
+		title: "✈ 机场",
+		items: [
+			{
+				title: "naiko",
+				desc: "全球网络加速服务，为您开启无缝连接的新篇章",
+				icon: "/icons/naiko.png",
+				link: "https://naiko.cloud/"
+			},
+			{
+				title: "一元机场",
+				desc: "防失联: https://github.com/yiyuanjichang/dizhi",
+				icon: "/icons/xn--1-q07a56pdss.png",
+				link: "https://xn--1-q07a56pdss.com/"
 			}
 		]
 	},
