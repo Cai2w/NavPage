@@ -92,6 +92,12 @@ export const NavData: NavData[] = [
 				link: "https://tinypng.com"
 			},
 			{
+				icon: "/icons/www.aigei.png",
+				title: "爱给-动图合集",
+				desc: "爱给-让创作更简单",
+				link: "https://www.aigei.com/lib/gif/"
+			},
+			{
 				icon: "https://favicon.im/cursor.jeter.eu.org",
 				title: "CURSOR VIP",
 				desc: "cursor vip 自动续费工具",
