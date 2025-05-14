@@ -320,6 +320,18 @@ export const NavData: NavData[] = [
 				link: "https://learn.lianglianglee.com/"
 			},
 			{
+				icon: "/icons/dunwu.github.ico",
+				title: "钝悟的博客",
+				desc: "大道至简，知易行难",
+				link: "https://dunwu.github.io"
+			},
+			{
+				icon: "/icons/dunwu.github.ico",
+				title: "DB-TUTORIAL",
+				desc: " db-tutorial 是一个数据库教程。",
+				link: "https://dunwu.github.io/db-tutorial/"
+			},
+			{
 				icon: "https://fhfirehuo.github.io/Attacking-Java-Rookie/gitbook/images/favicon.ico",
 				title: "进击的Java菜鸟",
 				desc: "这是一本java程序员写的必备知识积累之书。可以说是一本进击之书。",
