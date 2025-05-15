@@ -1347,6 +1347,12 @@ export const NavData: NavData[] = [
 				desc: "防失联: https://github.com/yiyuanjichang/dizhi",
 				icon: "/icons/xn--1-q07a56pdss.png",
 				link: "https://xn--1-q07a56pdss.com/"
+			},
+			{
+				title: "忽悠云",
+				desc: "忽悠云服务",
+				icon: "https://web.my.huy.ooo/zh/assets/logo.png",
+				link: "https://web.my.huy.ooo"
 			}
 		]
 	},
