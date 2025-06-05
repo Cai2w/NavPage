@@ -241,6 +241,12 @@ export const NavData: NavData[] = [
 				link: "https://chatgpt.com/"
 			},
 			{
+				icon: "/icons/grok.com-favicon-large.ico",
+				title: "Grok",
+				desc: "Grok is a free AI assistant designed by xAI to maximize truth and objectivity. ",
+				link: "https://grok.com/"
+			},
+			{
 				title: "Claude",
 				icon: "/icons/claude.webp",
 				desc: "可为用户提供聊天对话、认知推理和视觉识别等功能",
