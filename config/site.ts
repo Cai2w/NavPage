@@ -57,6 +57,12 @@ export const NavData: NavData[] = [
 				link: "https://zh.practice.rs"
 			},
 			{
+				icon: "/icons/qianguyihao.svg",
+				title: "千古前端图文教程",
+				desc: "千古前端图文教程，超详细的 Web 前端入门到进阶知识库。从零开始学前端，做一名精致优雅的前端工程师。持续更新中...",
+				link: "https://web.qianguyihao.com/"
+			},
+			{
 				icon: "/icons/juejin.png",
 				title: "掘金小册",
 				desc: "还是要抽时间学习呀",
@@ -84,6 +90,12 @@ export const NavData: NavData[] = [
 				title: "TinyPNG",
 				desc: "在线图片压缩工具",
 				link: "https://tinypng.com"
+			},
+			{
+				icon: "/icons/www.aigei.png",
+				title: "爱给-动图合集",
+				desc: "爱给-让创作更简单",
+				link: "https://www.aigei.com/lib/gif/"
 			},
 			{
 				icon: "https://favicon.im/cursor.jeter.eu.org",
@@ -223,12 +235,6 @@ export const NavData: NavData[] = [
 				desc: "API 文档、API 调试、API Mock、API 自动化测试",
 				link: "https://www.apifox.cn/"
 			},
-			{
-				icon: "https://favicon.im/www.fre321.com",
-				title: "FRE123",
-				desc: "免费资源共享平台",
-				link: "https://www.fre321.com/"
-			}
 		]
 	},
 	{
@@ -277,6 +283,12 @@ export const NavData: NavData[] = [
 				link: "https://gemini.google.com/app"
 			},
 			{
+				title: "manus",
+				icon: "/icons/manus.png",
+				desc: "Manus是一个将你的想法变为行动的通用AI助手。",
+				link: "https://manus.im/app"
+			},
+			{
 				title: "文心一言",
 				icon: "/icons/wenxin.png",
 				desc: "百度推出的基于文心大模型的AI对话互动工具",
@@ -318,6 +330,18 @@ export const NavData: NavData[] = [
 				title: "技术文章摘抄",
 				desc: "计算机相关技术文章汇总",
 				link: "https://learn.lianglianglee.com/"
+			},
+			{
+				icon: "/icons/dunwu.github.ico",
+				title: "钝悟的博客",
+				desc: "大道至简，知易行难",
+				link: "https://dunwu.github.io"
+			},
+			{
+				icon: "/icons/dunwu.github.ico",
+				title: "DB-TUTORIAL",
+				desc: " db-tutorial 是一个数据库教程。",
+				link: "https://dunwu.github.io/db-tutorial/"
 			},
 			{
 				icon: "https://fhfirehuo.github.io/Attacking-Java-Rookie/gitbook/images/favicon.ico",
@@ -429,7 +453,7 @@ export const NavData: NavData[] = [
 		]
 	},
 	{
-		title: "📺 影视资源",
+		title: "🗂 资源汇总",
 		items: [
 			{
 				title: "亿苯正经的Alist库",
@@ -448,6 +472,18 @@ export const NavData: NavData[] = [
 				desc: "七米蓝的仓库",
 				icon: "https://favicon.im/al.chirmyram.com?larger=true",
 				link: "https://al.chirmyram.com/"
+			},
+			{
+				icon: "https://favicon.im/www.fre321.com",
+				title: "FRE123",
+				desc: "免费资源共享平台",
+				link: "https://www.fre321.com/"
+			},
+			{
+				icon: "https://favicon.im/cxy521.com",
+				title: "程序员导航",
+				desc: "程序员一站式导航网站",
+				link: "http://cxy521.com/"
 			},
 		]
 	},
@@ -1091,6 +1127,12 @@ export const NavData: NavData[] = [
 				link: "https://www.runoob.com"
 			},
 			{
+				icon: "/icons/qianguyihao.svg",
+				title: "千古前端图文教程",
+				desc: "千古前端图文教程，超详细的 Web 前端入门到进阶知识库。从零开始学前端，做一名精致优雅的前端工程师。持续更新中...",
+				link: "https://web.qianguyihao.com/"
+			},
+			{
 				icon: "/icons/es6.png",
 				title: "ES6 入门教程",
 				desc: "《ECMAScript 6 入门教程》是一本开源的 JavaScript 语言教程，全面介绍 ECMAScript 6 新引入的语法特性",
@@ -1294,6 +1336,29 @@ export const NavData: NavData[] = [
 				desc: "Supabase 是一个开源的后端即服务（BaaS）平台，它可以帮助开发者快速构建应用程序，无需编写后端代码。",
 				icon: "/icons/supabase.png",
 				link: "https://supabase.com/"
+			}
+		]
+	},
+	{
+		title: "✈ 机场",
+		items: [
+			{
+				title: "naiko",
+				desc: "全球网络加速服务，为您开启无缝连接的新篇章",
+				icon: "/icons/naiko.png",
+				link: "https://naiko.cloud/"
+			},
+			{
+				title: "一元机场",
+				desc: "防失联: https://github.com/yiyuanjichang/dizhi",
+				icon: "/icons/xn--1-q07a56pdss.png",
+				link: "https://xn--1-q07a56pdss.com/"
+			},
+			{
+				title: "忽悠云",
+				desc: "忽悠云服务",
+				icon: "https://web.my.huy.ooo/zh/assets/logo.png",
+				link: "https://web.my.huy.ooo"
 			}
 		]
 	},
