@@ -1359,7 +1359,13 @@ export const NavData: NavData[] = [
 				desc: "忽悠云服务",
 				icon: "https://web.my.huy.ooo/zh/assets/logo.png",
 				link: "https://web.my.huy.ooo"
-			}
+			},
+			{
+				title: "XFLTD养鸡场",
+				desc: "XFLTD养鸡场",
+				icon: "/icons/xfss.png",
+				link: "https://www.xfltd.cfd/#/register?code=mUCPr6X0"
+			},
 		]
 	},
 	{
