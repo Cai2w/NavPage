@@ -314,6 +314,29 @@ export const NavData: NavData[] = [
 			}
 		]
 	},
+	{
+		title: "✨ AI Skills",
+		items: [
+			{
+				icon: "/icons/skills.sh-favicon-large.ico",
+				title: "Skills.sh",
+				desc: "发现、浏览并安装 AI Agent 可复用技能",
+				link: "https://skills.sh"
+			},
+			{
+				icon: "/icons/skillsmp.com-favicon-large.ico",
+				title: "SkillsMP",
+				desc: "探索、筛选并安装 AI Agent 可用技能",
+				link: "https://skillsmp.com"
+			},
+			{
+				icon: "/icons/ai-skills.png",
+				title: "Awesome-Agent-Skills",
+				desc: "精选 AI Agent Skills 开源资源汇总",
+				link: "https://github.com/heilcheng/awesome-agent-skills"
+			}
+		]
+	},
 
 
 	{
