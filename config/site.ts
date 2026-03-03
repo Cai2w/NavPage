@@ -315,7 +315,7 @@ export const NavData: NavData[] = [
 		]
 	},
   {
-    title: "✨ AI工具网站",
+    title: "🎊 AI工具网站",
     items: [
       {
         icon: "/icons/arena.ai-favicon-large.ico",
