@@ -314,6 +314,29 @@ export const NavData: NavData[] = [
 			}
 		]
 	},
+  {
+    title: "✨ AI工具网站",
+    items: [
+      {
+        icon: "/icons/arena.ai-favicon-large.ico",
+        title: "ARENA",
+        desc: "AI 大模型排名",
+        link: "https://arena.ai/zh/leaderboard/"
+      },
+      {
+        icon: "/icons/relaypulse.top-favicon-large.ico",
+        title: "RelayPulse",
+        desc: "实时监测API中转服务可用性矩阵",
+        link: "https://relaypulse.top/"
+      },
+      {
+        icon: "/icons/中转出站.png",
+        title: "FoxCode",
+        desc: "FoxCode中转站",
+        link: "https://foxcode.rjj.cc/"
+      },
+    ]
+  },
 	{
 		title: "✨ AI Skills",
 		items: [
