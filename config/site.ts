@@ -1412,6 +1412,12 @@ export const NavData: NavData[] = [
 				icon: "/icons/xfss.png",
 				link: "https://www.xfltd.cfd/#/register?code=mUCPr6X0"
 			},
+      {
+        title: "飞鸟云",
+        desc: "飞鸟云",
+        icon: "/icons/鸟.png",
+        link: "https://x2.344233.cc/#/register?code=SZyq7A3L"
+      },
 		]
 	},
 	{
